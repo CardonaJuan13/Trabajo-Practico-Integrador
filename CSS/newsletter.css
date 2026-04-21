@@ -1,0 +1,20 @@
+.form{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.items{
+    text-align: left;
+    padding: 2%;
+    border-color: black;
+    text-decoration: underline;
+    border-width: 3px;
+}
+.main{
+    text-align: center;
+    padding-top: 10px;
+    line-height: 150%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: large;
+}
