@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/newsletter.css">
     <link rel="stylesheet" href="../CSS/styles.css">
     <link rel="icon" href="../Img/logo.jpg" type="image">
     <title>Newsletter</title>
 </head>
-<body>
+<body id="fondo">
     <header>
         <nav class="nav">
             <h1>
@@ -21,5 +22,48 @@
             </p>
         </nav>
     </header>
+    <main class="main">
+        <div>
+            <p>
+                Suscríbete a nuestro newsletter para recibir las últimas ofertas, novedades y promociones directamente en tu bandeja de entrada. Mantente informado sobre nuestros productos, eventos especiales y descuentos exclusivos. ¡No te pierdas ninguna oportunidad de ahorrar y descubrir lo nuevo en NombreTienda!
+            </p>
+        </div>
+        <form class="form" action="#" method="get">
+            <fieldset class="items">
+                <legend>Suscripción al Newsletter</legend>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <br>
+                <br>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required >
+
+                <br>
+                <br>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
+
+                <br>
+                <br>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <br>
+                <br>
+
+                <button type="submit">Suscribirse</button>
+
+                <br>
+                <br>
+
+                <button type="reset">Limpiar</button>
+            </fieldset>
+        </form>
+    </main>
 </body>
 </html>
