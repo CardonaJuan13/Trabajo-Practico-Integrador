@@ -6,14 +6,13 @@
     border: 3px solid rgb(7, 7, 7);
     font-weight: bold;
     margin-top: 25px;
-    color: black;
+    color: rgb(160, 151, 151);
 }
 .a{
     margin-right: 2%;
     text-decoration: none;
-    color: #5F5E5A;
-    border-bottom: 2px solid #5F5E5A;
-}
+    color: rgb(160, 151, 151);
+    border-bottom: 2px solid rgb(160, 151, 151);}
 #fondo{
     background-color: #FAFAF8;
 }
