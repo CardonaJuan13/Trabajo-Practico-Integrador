@@ -2,17 +2,18 @@
     text-align: center;
     margin-left: 25px;
     margin-right: 25px;
-    background-color: rgb(204, 194, 194);
+    background-color: #2C2C2A;
     border: 3px solid rgb(7, 7, 7);
     font-weight: bold;
     margin-top: 25px;
+    color: black;
 }
 .a{
     margin-right: 2%;
     text-decoration: none;
-    color: black;
-    border-bottom: 2px solid black;
+    color: #5F5E5A;
+    border-bottom: 2px solid #5F5E5A;
 }
 #fondo{
-    background-color: aliceblue;
+    background-color: #FAFAF8;
 }
