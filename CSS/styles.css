@@ -2,17 +2,17 @@
     text-align: center;
     margin-left: 25px;
     margin-right: 25px;
-    background-color: rgb(204, 194, 194);
+    background-color: #2C2C2A;
     border: 3px solid rgb(7, 7, 7);
     font-weight: bold;
     margin-top: 25px;
+    color: rgb(160, 151, 151);
 }
 .a{
     margin-right: 2%;
     text-decoration: none;
-    color: black;
-    border-bottom: 2px solid black;
-}
+    color: rgb(160, 151, 151);
+    border-bottom: 2px solid rgb(160, 151, 151);}
 #fondo{
-    background-color: aliceblue;
+    background-color: #FAFAF8;
 }
