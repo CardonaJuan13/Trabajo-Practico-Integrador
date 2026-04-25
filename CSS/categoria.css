@@ -21,10 +21,10 @@
 }
 .section{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
 }
 .table3{
-    margin-top: 40px;
     max-width: 70%;
     padding: 10px;
 }
