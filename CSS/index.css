@@ -1,8 +1,27 @@
 .main{
     text-align: center;
     padding-top: 10px;
-    margin-left: 5%;
+    margin-left: 2%;
     margin-right: 5%;
     line-height: 150%;
     font-size: larger;
+}
+.aside{
+    padding: 2%;
+    font-size: large;
+    text-align: left;
+    max-width: 35%;
+    border: 1px solid black;
+    margin-top: 2%;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid black;
+    padding: 3%;
+}
+.box2{
+    padding: 2%;
+    margin-top: 2%;
+    margin-left: 5%;
 }

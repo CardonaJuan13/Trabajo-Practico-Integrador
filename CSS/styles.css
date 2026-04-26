@@ -11,8 +11,15 @@
 .a{
     margin-right: 2%;
     text-decoration: none;
-    color: rgb(160, 151, 151);
+    color: rgb(255, 255, 255);
     border-bottom: 2px solid rgb(160, 151, 151);}
+    .a:hover{
+        color: rgb(128, 75, 128);
+        border-bottom: none;
+    }
+    .a:active{
+        color: rgb(255, 255, 255);
+    }
 #fondo{
     background-color: #FAFAF8;
 }
