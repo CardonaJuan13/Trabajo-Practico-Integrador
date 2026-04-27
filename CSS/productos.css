@@ -1,5 +1,9 @@
 /* Centrar contenido */
 .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
     width: 90%;
     margin: auto;
     text-align: center;
@@ -10,7 +14,8 @@
 }
 /* Tarjetas */
 .card {
-    display: inline-block; 
+    display: flex;
+    flex-direction: column; 
     width: 250px;
     margin: 16px;
     padding: 16px;
@@ -40,5 +45,5 @@
 .precio {
     font-weight: bold;
     color: green;
-    margin-top: 10px;
+    margin-top: auto;
 }
