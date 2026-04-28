@@ -25,7 +25,7 @@
     margin-bottom: 2%;
 }
 .table3{
-    max-width: 70%;
+    max-width: 40%;
     padding: 10px;
 }
 .table3 tbody{
@@ -33,5 +33,5 @@
 }
 .section-table3{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
