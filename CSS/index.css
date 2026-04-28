@@ -13,6 +13,7 @@
     max-width: 35%;
     border: 1px solid black;
     margin-top: 2%;
+    background-color: rgb(141, 145, 152)
 }
 .box1{
     display: flex;

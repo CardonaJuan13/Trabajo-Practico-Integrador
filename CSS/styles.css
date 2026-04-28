@@ -3,32 +3,34 @@
     text-align: center;
     margin-left: 25px;
     margin-right: 25px;
-    background-color: #0f172a;
+    background-color: #47526e;
     border: 3px solid rgb(7, 7, 7);
     font-weight: bold;
     margin-top: 25px;
-    color: #38bdf8;
+    color: #161e21;
 }
 .a{
     margin-right: 2%;
-    color: rgb(255, 255, 255);
+    color: rgb(8, 7, 7);
     border-bottom: #FAFAF8;
 }
     .a:hover{
-        color: #38bdf8;
+        color: #ffffff;
         text-decoration: none;
     }
     .a:active{
         color: rgb(255, 255, 255);
     }
 #fondo{
-    background-color: #FAFAF8;
+    background-color: #c8cbbf;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
 }
 .footer{
     border-radius: 10px;
     border: 1px solid black;
     margin-top: 3%;
     padding: 1%;
-    background-color: #0f172a;
+    background-color: #47526e;
     color: white;
 }
