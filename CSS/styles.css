@@ -1,18 +1,53 @@
 .nav{
-    text-align: center;
-    margin-left: 25px;
-    margin-right: 25px;
-    background-color: #2C2C2A;
-    border: 3px solid rgb(7, 7, 7);
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-image: url(../Img/TDF\ Tech\ fondo.jpg);
+    border: 1px solid;
     font-weight: bold;
-    margin-top: 25px;
-    color: rgb(160, 151, 151);
+    margin-top: 0px;
+    color: #10b3ee;
 }
+.nav p {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-right: 55px;
+    width: 100%;
+}
+
+.logo {
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
 .a{
     margin-right: 2%;
     text-decoration: none;
-    color: rgb(160, 151, 151);
-    border-bottom: 2px solid rgb(160, 151, 151);}
+    border-bottom: #e4e412;
+    color: rgb(255, 255, 255);
+}
+.a:hover{
+    color: #d8d9da;
+    text-decoration: none;
+}
+.a:active {
+    color: #031d37;
+}
+
 #fondo{
-    background-color: #FAFAF8;
+    background-color: #c8cbbf;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    margin: 0;
+}
+.footer{
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 3%;
+    padding: 1%;
+    background-color: #47526e;
+    color: white;
 }
