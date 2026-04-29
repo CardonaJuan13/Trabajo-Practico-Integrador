@@ -1,7 +1,29 @@
-.main {
+section {
     text-align: center;
+    font-family: neo tech ;
 }
-section h2 {
-    font-size: 40px;
+.contenedor-producto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+}
+.precio {
+    font-size: 35px;
 }
 
+.descripción {
+    max-width: 900px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+img { 
+    border-radius: 15px;
+    width: 60%;
+}
+.titulo {
+    font-size: 35px;
+}
