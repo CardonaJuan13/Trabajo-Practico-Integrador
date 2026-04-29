@@ -1,36 +1,44 @@
 .nav{
-    border-radius: 10px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
     text-align: center;
-    margin-left: 25px;
-    margin-right: 25px;
-    background-color: #47526e;
-    border: 3px solid rgb(7, 7, 7);
+    background-color: #031d37;
+    border-bottom: 1px solid rgb(12, 145, 185);
     font-weight: bold;
-    margin-top: 25px;
-    color: #161e21;
+    color: #10b3ee;
 }
 .a{
     margin-right: 2%;
-    color: rgb(8, 7, 7);
-    border-bottom: #FAFAF8;
+    color: rgb(255, 255, 255);
 }
     .a:hover{
-        color: #ffffff;
+        color: #8a007a;
         text-decoration: none;
     }
     .a:active{
         color: rgb(255, 255, 255);
     }
 #fondo{
-    background-color: #c8cbbf;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
 }
 .footer{
-    border-radius: 10px;
-    border: 1px solid black;
-    margin-top: 3%;
-    padding: 1%;
-    background-color: #47526e;
-    color: white;
+    text-align: center;
+    border: 8px solid rgb(8, 129, 215);
+    background-color: #031d37;
+    color: rgb(255, 255, 255);
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 100px;
+    padding: 20px;
+}
+.box3{
+    text-align: center;
+}
+.logo-tienda{
+    max-width: 10%;
 }
