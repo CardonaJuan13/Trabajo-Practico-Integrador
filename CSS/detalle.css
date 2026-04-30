@@ -1,6 +1,6 @@
-section {
-    text-align: center;
-    font-family: neo tech ;
+.titulo {
+    font-size: 35px;
+    font-family: sans-serif;
 }
 .contenedor-producto {
     display: flex;
@@ -9,8 +9,37 @@ section {
     max-width: 900px;
     margin: auto;
 }
+
 .precio {
     font-size: 35px;
+    background-color: #38B575;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+
+.especificaciones {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.contenedor-tabla li {
+    margin-bottom: 5px;
+    
+}
+
+.especificaciones img {
+    margin: 0;
+}
+
+img { 
+    border-radius: 15px;
+    width: 800px;
+    margin: auto;
+    margin-top: 0%;
 }
 
 .descripción {
@@ -19,29 +48,7 @@ section {
     justify-content: center;
     align-items: center;
     margin: auto;
-}
-.contenedor-tabla {
-    
-    padding: 10px;
-    overflow: hidden;
-    
-    border-collapse: collapse; 
-    background-color: aliceblue;
-    border-radius: 15px;
-    width: 100%;
-    max-width: 900px;
-    margin: 20px auto;
+    font-family: sans-serif;
 }
 
-.contenedor-tabla th, 
-.contenedor-tabla td {
-    border: 1px solid black;
-}
 
-img { 
-    border-radius: 15px;
-    width: 60%;
-}
-.titulo {
-    font-size: 35px;
-}
