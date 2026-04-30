@@ -15,9 +15,27 @@ section {
 
 .descripción {
     max-width: 900px;
+    overflow: hidden;
     justify-content: center;
     align-items: center;
     margin: auto;
+}
+.contenedor-tabla {
+    
+    padding: 10px;
+    overflow: hidden;
+    
+    border-collapse: collapse; 
+    background-color: aliceblue;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.contenedor-tabla th, 
+.contenedor-tabla td {
+    border: 1px solid black;
 }
 
 img { 
