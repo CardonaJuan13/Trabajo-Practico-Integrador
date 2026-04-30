@@ -33,7 +33,7 @@
 .strong-section{
     display: flex;
     flex-direction: column;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .box1{
     max-width: 100%;
@@ -43,16 +43,16 @@
 }
 .box2{
     max-width: 100%;
-    padding: 2%;
+    padding: 1%;
     margin-top: 3%;
     border-top: 3px solid black;
     border-width: 100%;
-
+    line-height: 100%;
 }
 .p-header{
     font-size: xx-large;
     text-align: left;
-    max-width: 70%;
+    max-width: 100%;
 }
 .header{
     border-bottom: 3px solid black;
@@ -60,7 +60,7 @@
     font-family: cursive;
     background-color: #0d4a87;
     background-image:url(../Img/imagen-fondo-header.png);
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat; 
     margin: 0;
     padding: 5%;
@@ -76,4 +76,5 @@
     border-radius: 15px;
     text-decoration: none;
     color: black;
+    max-width: 100%;
 }

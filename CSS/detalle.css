@@ -1,7 +1,5 @@
-body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
+.main-detalle{
+    font-family: cursive;
 }
 .titulo {
     font-size: 35px;
@@ -25,8 +23,8 @@ body {
 .especificaciones {
     display: flex;
     justify-content: center;
-    align-items: center;
     margin: auto;
+    margin-left: 100px;
 }
 
 .especificaciones img {
@@ -36,22 +34,29 @@ body {
     margin: 40px;
     padding: 80px;
 }
-
+.contenedor-tabla{
+    line-height: 100%;
+    margin-top: 70px;
+}
 .contenedor-tabla li {
     margin-bottom: 8px;
-    
 }
 
 img { 
     border-radius: 15px;
     max-width: 100%;
     margin: auto;
-    
 }
 
 .descripción {
     max-width: 900px;
     margin: auto;
+    padding: 30px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+.h3-detalle{
+    text-align: center;
 }
 
 @media (max-width: 500px) {

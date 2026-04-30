@@ -8,24 +8,9 @@
     font-weight: bold;
     color: #10b3ee;
 }
-
-.nav p {
-    display: flex;
-    justify-content: center;  
-    margin-bottom: 0;
-    margin-top: auto;
-    padding: 20px;
-    gap: 20px;
-    width: 100%;
-    
+.nav img{
+    max-width: 10%;
 }
-
-.logo {
-    width: 150px;
-    margin-left: 40px;
-    margin-top: 20px;
-}
-
 .a{
     margin-right: 2%;
     color: rgb(255, 255, 255);
@@ -51,12 +36,12 @@
     color: rgb(255, 255, 255);
     margin-left: 0;
     margin-right: 0;
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 20px;
 }
 .box3{
     text-align: center;
 }
 .logo-tienda{
-    max-width: 10%;
+    max-width: 100%;
 }
