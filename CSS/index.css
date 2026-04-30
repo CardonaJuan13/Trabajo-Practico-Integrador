@@ -1,12 +1,10 @@
 .main{
     text-align: center;
-    margin-left: 2%;
-    margin-right: 5%;
     line-height: 150%;
     font-size: larger;
     font-family: cursive;
 }
-.aside{
+.section{
     max-width: 100%;
     margin-top: 2%;
     background-color: #f0f4f8;
@@ -14,10 +12,11 @@
     margin-left: 2%;
 }
 .strong-titulo{
+    font-size:x-large;
     margin-right: 4%;
     text-decoration: underline;
 }
-.box-aside{
+.box-section{
     max-width: 100%;
     margin-right: 5%;
     display: flex;
@@ -31,7 +30,7 @@
     color: white;
     padding: 10px;
 }
-.strong-aside{
+.strong-section{
     display: flex;
     flex-direction: column;
 }
@@ -45,24 +44,35 @@
     max-width: 100%;
     padding: 2%;
     margin-top: 3%;
-    border-top: 2px solid black;
+    border-top: 3px solid black;
+    border-width: 100%;
+
 }
 .p-header{
-    text-align: center;
-    max-width: 80%;
-    margin-left: 150px;
-    color: white
+    font-size: xx-large;
+    text-align: left;
+    max-width: 70%;
 }
 .header{
-    border: 3px solid black;
+    border-bottom: 3px solid black;
     font-size: larger;
     font-family: cursive;
-    background-image:url(../Img/fondo-header.jpeg);
+    background-color: #0d4a87;
+    background-image:url(../Img/imagen-fondo-header.png);
     background-size: cover;
     background-repeat: no-repeat; 
     margin: 0;
-    padding: 10px;
+    padding: 5%;
     max-height: 100%;
     max-width: 100%;
-
+    color: white;
+    border-top: 3px solid black;
+}
+.enlace-header{
+    background-color: #38B575;
+    border: 4px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
 }
