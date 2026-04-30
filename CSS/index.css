@@ -4,23 +4,65 @@
     margin-right: 5%;
     line-height: 150%;
     font-size: larger;
+    font-family: cursive;
 }
 .aside{
-    padding: 2%;
-    text-align: left;
-    max-width: 35%;
-    border: 1px solid black;
+    max-width: 100%;
     margin-top: 2%;
     background-color: #f0f4f8;
+    font-family: cursive;
+    margin-left: 2%;
+}
+.strong-titulo{
+    margin-right: 4%;
+    text-decoration: underline;
+}
+.box-aside{
+    max-width: 100%;
+    margin-right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    border: 2px solid gray;
+    border-radius: 15px;
+    align-items:center ;
+    background-color: #0d4a87;
+    color: white;
+    padding: 10px;
+}
+.strong-aside{
+    display: flex;
+    flex-direction: column;
 }
 .box1{
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
-    border-top: 3px solid black;
-    padding: 3%;
+    padding: 20px;
 }
 .box2{
+    max-width: 100%;
     padding: 2%;
-    margin-top: 2%;
-    margin-left: 5%;
+    margin-top: 3%;
+    border-top: 2px solid black;
+}
+.p-header{
+    text-align: center;
+    max-width: 80%;
+    margin-left: 150px;
+    color: white
+}
+.header{
+    border: 3px solid black;
+    font-size: larger;
+    font-family: cursive;
+    background-image:url(../Img/fondo-header.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 10px;
+    max-height: 100%;
+    max-width: 100%;
+
 }

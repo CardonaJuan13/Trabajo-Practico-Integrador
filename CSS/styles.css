@@ -13,7 +13,7 @@
     color: rgb(255, 255, 255);
 }
     .a:hover{
-        color: #8a007a;
+        color: #10b3ee;
         text-decoration: none;
     }
     .a:active{
@@ -28,7 +28,7 @@
 }
 .footer{
     text-align: center;
-    border: 3px solid rgb(8, 129, 215);
+    border: 1px solid rgb(10, 10, 11);
     background-color: #031d37;
     color: rgb(255, 255, 255);
     margin-left: 0;

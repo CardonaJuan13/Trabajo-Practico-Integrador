@@ -6,14 +6,14 @@
     margin-left: 3%;
     margin-right: 3%;
     max-width: 40%;
-    padding: 10px;
 }
 .caption{
     border: 1.5px solid black;
     font-size: larger;
+    background-color: #031d37;
+    color: white;
 }
 .table2{
-    padding: 10px;
     max-width: 40%;
     margin-left: 1%;
     margin-right: 3%;
@@ -26,7 +26,6 @@
 }
 .table3{
     max-width: 40%;
-    padding: 10px;
 }
 .table3 tbody{
     line-height: 150%;
@@ -34,4 +33,7 @@
 .section-table3{
     display: flex;
     justify-content: space-evenly;
+}
+.main{
+    font-family: cursive;
 }

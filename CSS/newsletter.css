@@ -4,15 +4,17 @@
     margin-left: 5%;
     margin-right: 5%;
     background-color: #f0f4f8;
+    max-width: 100%;
 }
 .items{
+    max-width: 100%;
     text-align: left;
     padding: 2%;
     border-color: black;
-    text-decoration: underline;
     border-width: 3px;
 }
 .main{
+    font-family: cursive;
     text-align: center;
     line-height: 150%;
     margin-left: 5%;
