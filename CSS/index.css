@@ -11,6 +11,15 @@
     font-family: cursive;
     margin-left: 2%;
 }
+@media(max-width:680px){
+    .box1{
+        display: flex;
+        flex-wrap:wrap;
+        .box-section{
+            margin-bottom:2rem;
+        }
+    }
+}
 .strong-titulo{
     font-size:x-large;
     margin-right: 4%;
@@ -62,7 +71,6 @@
     background-image:url(../Img/imagen-fondo-header.png);
     background-size: 100%;
     background-repeat: no-repeat; 
-    margin: 0;
     padding: 5%;
     max-height: 100%;
     max-width: 100%;
