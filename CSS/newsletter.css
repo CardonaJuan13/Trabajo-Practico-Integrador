@@ -6,26 +6,37 @@
     background-color: #f0f4f8;
     max-width: 100%;
 }
-.items{
+.mis-items{
     max-width: 100%;
     text-align: left;
     padding: 2%;
     border-color: black;
-    border-width: 3px;
+    border-width: 2px;
+    border-style:double ;
 }
-.main{
+.mi-main{
     font-family: cursive;
     text-align: center;
     line-height: 150%;
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 @media (max-width: 600px) {
-    .items{
+    .mis-items{
         max-width: 100%;
         text-align: left;
         margin: 3%;
+        padding: 2%;
         border-color: black;
         border-width: 3px;
+    }
+    main div{
+        margin-top: 80px;
+        line-height: 180%;
+    }
+    label{
+        margin: 2%;
     }
 }

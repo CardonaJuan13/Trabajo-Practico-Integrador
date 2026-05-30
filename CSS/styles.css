@@ -1,4 +1,4 @@
-.nav{
+ .minav{
     margin: 0;
     width: 100%;
     box-sizing: border-box;
@@ -8,7 +8,7 @@
     font-weight: bold;
     color: #10b3ee;
 }
-.nav img{
+.minav img{
     max-width: 10%;
 }
 .a{
@@ -44,4 +44,16 @@
 }
 .logo-tienda{
     max-width: 100%;
+}
+@media(max-width:680px){
+    .nav{
+        display: none !important;
+    }
+    .header{
+        padding-bottom: 50px;
+    }
+    .h1-header{
+        font-size: larger;
+        margin-top: 60px;
+    }
 }

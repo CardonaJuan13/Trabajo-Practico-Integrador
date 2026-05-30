@@ -4,14 +4,6 @@
 .titulo {
     font-size: 35px;
 }
-.contenedor-producto {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 900px;
-    margin: auto;
-}
-
 .precio {
     font-size: 35px;
     background-color: #38B575;
@@ -22,17 +14,16 @@
 
 .especificaciones {
     display: flex;
-    justify-content: center;
-    margin: auto;
-    margin-left: 100px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
 }
 
-.especificaciones img {
+.esp-img {
     background-color: rgb(255, 255, 255);
     border: 3px solid;
-    max-width: 40%;
     margin: 40px;
-    padding: 80px;
+    padding: 60px;
 }
 .contenedor-tabla{
     line-height: 100%;
@@ -44,7 +35,6 @@
 
 img { 
     border-radius: 15px;
-    max-width: 100%;
     margin: auto;
 }
 
@@ -61,19 +51,18 @@ img {
 @media(max-width: 768px){
     .contenedor-producto {
         flex-direction: column;
-    }
-    .especificaciones {
-        flex-direction: column;
         align-items: center;
+        margin-top: 20%;
     }
-    .especificaciones img {
-        max-width: 70%;
-        margin: auto 56% 1rem 5rem;
+    .precio{
+        max-width: 60%;
+        font-size: larger;
+        text-align: center;
     }
-    .contenedor-tabla{
-        margin-right: 10%;
-        ul{
-            margin-bottom: 1rem;
-        }
+    .esp-img {
+        max-width: 90%;
+    }
+    .descripción{
+        border: none;
     }
 }
