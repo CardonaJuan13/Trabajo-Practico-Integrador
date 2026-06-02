@@ -26,7 +26,8 @@
 @mixin img{
       .minav img{
         max-width: 10%;
-    }
+        display: inline-block;
+      }
     .a{
         margin-right: vars.$espaciado-base;
         color: white;
