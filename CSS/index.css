@@ -10,13 +10,13 @@
     text-align: center;
     line-height: 150%;
     font-size: larger;
-    font-family: cursive;
+    font-family: sans-serif;
 }
 .section{
     max-width: 100%;
     margin-top: 2%;
     background-color: #f0f4f8;
-    font-family: cursive;
+    font-family: sans-serif;
     margin-left: 2%;
 }   
 .strong-titulo{
@@ -57,7 +57,7 @@
     border-width: 100%;
     line-height: 100%;
 }
-.p-header{
+.h1-header{
     font-size: xx-large;
     text-align: left;
     max-width: 100%;
@@ -65,7 +65,7 @@
 .header{
     border-bottom: 3px solid black;
     font-size: larger;
-    font-family: cursive;
+    font-family: sans-serif;
     background-color: #0d4a87;
     background-size: 100%;
     background-repeat: no-repeat; 
@@ -83,17 +83,18 @@
     text-decoration: none;
     color: black;
     max-width: 100%;
+    margin-top: 30px;
 }
 .contenedor-header{
     display: flex;
 }
 .header-texto{
-    padding-top: 5%;
+    padding-top: 10%;
     width: 250px;
 }
  .header-imagen{
     height: 190px;
-    width: 80%;
+    width: 100%;
         background-image: url('../Img/imagen-fondo-header-larga.png');
         background-size: cover;
         background-position: center;
@@ -108,17 +109,16 @@
     }
 .contenedor-header{
     display: flex;
-    justify-content: space-evenly;
     }
     .header-texto{
         flex:0;
+        margin-right: 10px;
     }
     .header-imagen{
-        margin-left: 10%;
-        margin-top: 5%;
+        margin-top: 10%;
         flex: 3;
-        min-width: 0;
-        height: 120px;
+        min-width: 100px;
+        height: 130px;
         background-image: url('../Img/imagen-fondo-header.png');
         background-size: cover;
     }
