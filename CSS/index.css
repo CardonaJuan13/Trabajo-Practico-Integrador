@@ -2,13 +2,11 @@
     text-align: center;
     line-height: 150%;
     font-size: larger;
-    font-family: sans-serif;
 }
 .section{
     max-width: 100%;
     margin-top: 2%;
     background-color: #f0f4f8;
-    font-family: sans-serif;
     margin-left: 2%;
 }   
 .strong-titulo{
@@ -57,7 +55,6 @@
 .header{
     border-bottom: 3px solid black;
     font-size: larger;
-    font-family: sans-serif;
     background-color: #0d4a87;
     background-size: 100%;
     background-repeat: no-repeat; 
