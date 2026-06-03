@@ -3,8 +3,18 @@
 .main-detalle{
     font-family: cursive;
 }
+.especificaciones {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+.columna-izquierda, .columna-derecha {
+  flex: 1;
+}
+
 .titulo {
     font-size: 35px;
+    text-align: center;
 }
 .precio {
     font-size: 35px;
@@ -13,12 +23,7 @@
     border-radius: vars.$borde-redondeado;
 }
 
-.especificaciones {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 3rem;
-}
+
 
 .esp-img {
     border: vars.$borde-general;
