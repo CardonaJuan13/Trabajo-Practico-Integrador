@@ -1,3 +1,87 @@
+@charset "UTF-8";
+.minav {
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #031d37;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  font-weight: bold;
+  color: #10b3ee;
+}
+
+.main-detalle {
+  font-family: cursive;
+}
+
+.titulo {
+  font-size: 35px;
+}
+
+.precio {
+  font-size: 35px;
+  background-color: #6ace83;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.especificaciones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.esp-img {
+  border: 3px solid #000000;
+  margin: 40px;
+  padding: 60px;
+}
+
+.contenedor-tabla {
+  line-height: 100%;
+  margin-top: 70px;
+}
+
+.contenedor-tabla li {
+  margin-bottom: 8px;
+}
+
+img {
+  border-radius: 15px;
+  margin: auto;
+}
+
+.descripción {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+  border-left: 3px solid #000000;
+  border-right: 3px solid #000000;
+}
+
+.h3-detalle {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .contenedor-producto {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+  }
+  .precio {
+    max-width: 60%;
+    font-size: larger;
+    text-align: center;
+  }
+  .esp-img {
+    max-width: 90%;
+  }
+  .descripción {
+    border: none;
+  }
+}
 .minav {
   margin: 0;
   width: 100%;
@@ -19,18 +103,10 @@
   color: white;
 }
 
-a:hover {
-  color: #10b3ee;
-  text-decoration: none;
-}
-a:active {
-  color: white;
-}
-
 #fondo {
   margin: 0;
   padding: 0;
-  background-color: #f0f4f8;
+  background-color: #ffffff;
   font-family: "Times New Roman", Times, serif;
   font-size: larger;
 }

@@ -1,2 +1,3 @@
+@use "variables" as vars;
 @use "mixin" as mx;
 @include mx.navbar;

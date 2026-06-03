@@ -1,12 +1,15 @@
+@use "variables" as vars;
 @use "mixin" as mx;
+@use "navbar";
+@use "detalle";
 @include mx.navbar;
 @include mx.img;
-@include mx.hover;
+
 
 #fondo{
     margin: 0;
     padding: 0;
-    background-color: #f0f4f8;
+    background-color: vars.$color-fondo;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
 }

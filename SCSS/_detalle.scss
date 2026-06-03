@@ -1,0 +1,68 @@
+@use "variables" as vars;
+
+.main-detalle{
+    font-family: cursive;
+}
+.titulo {
+    font-size: 35px;
+}
+.precio {
+    font-size: 35px;
+    background-color: vars.$color-precio;
+    padding: 15px;
+    border-radius: vars.$borde-redondeado;
+}
+
+.especificaciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.esp-img {
+    border: vars.$borde-general;
+    margin: 40px;
+    padding: 60px;
+}
+.contenedor-tabla{
+    line-height: 100%;
+    margin-top: 70px;
+}
+.contenedor-tabla li {
+    margin-bottom: 8px;
+}
+
+img { 
+    border-radius: vars.$borde-redondeado;
+    margin: auto;
+}
+
+.descripción {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    border-left: vars.$borde-general;
+    border-right: vars.$borde-general;
+}
+.h3-detalle{
+    text-align: center;
+}
+@media(max-width: 768px){
+    .contenedor-producto {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20%;
+    }
+    .precio{
+        max-width: 60%;
+        font-size: larger;
+        text-align: center;
+    }
+    .esp-img {
+        max-width: 90%;
+    }
+    .descripción{
+        border: none;
+    }
+}
