@@ -15,7 +15,7 @@
 @mixin hover{
     a{
         &:hover{
-            color: vars.$color-principal;
+            color: vars.$color-hover;
             text-decoration: none;
         }
         &:active{

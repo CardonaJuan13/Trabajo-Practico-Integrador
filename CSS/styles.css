@@ -10,6 +10,24 @@
   color: #10b3ee;
 }
 
+.minav img {
+  max-width: 10%;
+  display: inline-block;
+}
+
+.a {
+  margin-right: 1.5rem;
+  color: white;
+}
+
+.minav a:hover {
+  color: #10b3ee;
+  text-decoration: none;
+}
+.minav a:active {
+  color: white;
+}
+
 .main-detalle {
   font-family: cursive;
 }
@@ -104,27 +122,6 @@ img {
     flex-wrap: wrap;
   }
 }
-.minav {
-  margin: 0;
-  width: 100%;
-  box-sizing: border-box;
-  text-align: center;
-  background-color: #031d37;
-  border-bottom: 2px solid rgb(0, 0, 0);
-  font-weight: bold;
-  color: #10b3ee;
-}
-
-.minav img {
-  max-width: 10%;
-  display: inline-block;
-}
-
-.a {
-  margin-right: 1.5rem;
-  color: white;
-}
-
 #fondo {
   margin: 0;
   padding: 0;

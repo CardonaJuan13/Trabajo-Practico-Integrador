@@ -2,8 +2,6 @@
 @use "mixin" as mx;
 @use "navbar";
 @use "detalle";
-@include mx.navbar;
-@include mx.img;
 
 
 #fondo{
@@ -13,6 +11,7 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
 }
+
 .footer{
     text-align: center;
     border-top: 2px solid rgb(10, 10, 11);

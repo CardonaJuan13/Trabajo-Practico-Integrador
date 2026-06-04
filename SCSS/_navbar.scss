@@ -1,3 +1,7 @@
 @use "variables" as vars;
 @use "mixin" as mx;
 @include mx.navbar;
+@include mx.img;
+.minav {
+    @include mx.hover;
+}
