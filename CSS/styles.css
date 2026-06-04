@@ -27,6 +27,10 @@ a:active {
   color: white;
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 #fondo {
   margin: 0;
   padding: 0;
