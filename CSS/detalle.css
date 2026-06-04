@@ -62,4 +62,7 @@ img {
     .descripción{
         border: none;
     }
+    .titulo{
+        margin-top:2rem;
+    }
 }
