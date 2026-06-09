@@ -49,7 +49,6 @@
 
 .precio {
   font-size: 35px;
-  background-color: #6ace83;
   padding: 15px;
   border-radius: 15px;
 }
@@ -120,6 +119,76 @@ img {
     display: flex;
     font-size: 13px;
     flex-wrap: wrap;
+  }
+}
+/* Centrar contenido */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+#h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Tarjetas */
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: 12px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+/* Imágenes */
+.card img {
+  width: 100%;
+  height: 150px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+/* Títulos */
+.card h2 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* Texto */
+.card p {
+  font-size: 16px;
+}
+
+.card .precio {
+  background: none !important;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  color: #6ace83 !important;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* boton detalle */
+.btn.detalle {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin-top: auto;
+  background-color: #10b3ee;
+}
+
+@media (max-width: 768px) {
+  #h1 {
+    margin-top: 80px;
   }
 }
 #fondo {
