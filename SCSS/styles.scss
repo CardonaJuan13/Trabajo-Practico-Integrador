@@ -4,6 +4,9 @@
 @use "detalle";
 
 
+body{
+    font-family: vars.$fuente-principal;
+}
 #fondo{
     margin: 0;
     padding: 0;

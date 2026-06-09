@@ -48,9 +48,6 @@ th{
     display: flex;
     justify-content: space-evenly;
 }
-.mi-main{
-    font-family: cursive;
-}
 @media(max-width: 768px){
     .h2{
         margin-top: 60px;
