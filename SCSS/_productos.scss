@@ -44,17 +44,14 @@
 }
 
 .card .precio {
-    background: none !important;              // 👈 Elimina cualquier fondo heredado de Bootstrap
-    background-color: transparent !important; // 👈 Asegura la transparencia
-    border-radius: 0 !important;              // 👈 Le quita los bordes redondos de píldora
-    padding: 0 !important;                    // 👈 Quita el espaciado interno que lo hace parecer un botón
-    color: vars.$color-precio !important;     // 👈 Usa tu variable (si querés el texto verde) o poné el color que quieras (ej: #000)
+    border-radius: 0;
+    padding: 0;
+    color: vars.$color-precio;
     font-weight: bold;
     font-size: 18px;
     margin-top: 10px;
 }
 
-/* boton detalle */
 .btn.detalle {
     font-weight: bold;
     color: rgb(255, 255, 255);

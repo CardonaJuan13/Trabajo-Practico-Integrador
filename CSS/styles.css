@@ -168,17 +168,14 @@ img {
 }
 
 .card .precio {
-  background: none !important;
-  background-color: transparent !important;
-  border-radius: 0 !important;
-  padding: 0 !important;
-  color: #6ace83 !important;
+  border-radius: 0;
+  padding: 0;
+  color: #6ace83;
   font-weight: bold;
   font-size: 18px;
   margin-top: 10px;
 }
 
-/* boton detalle */
 .btn.detalle {
   font-weight: bold;
   color: rgb(255, 255, 255);
