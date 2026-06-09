@@ -48,6 +48,7 @@ th{
     display: flex;
     justify-content: space-evenly;
 }
+
 @media(max-width: 768px){
     .h2{
         margin-top: 60px;

@@ -1,6 +1,18 @@
-$color-fondo: #031d37;
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 $color-principal: #10b3ee;
-$espaciado-chico: 1rem;
-$espaciado-base: 1.5rem;
-$espaciado-grande: 2rem;
-$fuente-principal: 'Open Sans', sans-serif;
+
+$fuente-base: 'Libre Franklin', sans-serif;
+
+$color-titulo: #efedff;
+$color-texto: #1f2933;
+$color-bot-fondo: #216ee0;
+$color-bot-fondo-transp: rgba(0, 0, 0, 0);
+$color-fondo-izq: #1d5bec;
+$color-fondo-der: #062384;
+$color-sombra: rgba(0, 0, 0, 0.08);
+
+$radio-grande: 15px;
+$radio-mediano: 10px;
+$espaciado-base: 1rem;

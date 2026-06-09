@@ -1,33 +1,51 @@
-@use "mixin" as mx;
 @use "variables" as vars;
-@include mx.navbar;
+@use "mixin" as mx;
+@use "navbar";
 @include mx.img;
 @include mx.hover;
 
-body{
-    font-family: vars.$fuente-principal;
-}
 #fondo{
     margin: 0;
     padding: 0;
     background-color: #f0f4f8;
+    font-family: vars.$fuente-base;
     font-size: larger;
 }
+
+body{
+    font-family: vars.$fuente-base !important;
+}
+
+.mi-main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: vars.$radio-mediano;
+    box-shadow: vars.$color-sombra 0px 2px 5px 0px;
+}
+
 .footer{
     text-align: center;
-    border-top: 2px solid rgb(10, 10, 11);
-    background-color: #031d37;
     color: rgb(255, 255, 255);
     margin-left: 0;
     margin-right: 0;
     margin-top: 50px;
     padding: 20px;
+    @include mx.fondo-fijo(to right, vars.$color-fondo-izq, vars.$color-fondo-der);
 }
 .box3{
     text-align: center;
 }
 .logo-tienda{
-    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        max-width: 100%;
+        height: auto;
+    }
 }
 @media(max-width:680px){
     .nav{
@@ -41,3 +59,4 @@ body{
         margin-top: 60px;
     }
 }
+

@@ -1,52 +1,128 @@
-.minav {
-  margin: 0;
-  width: 100%;
-  box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
+header {
+  max-width: 100%;
+  margin: 0 auto 1rem auto;
+  padding: 1rem;
+  background: linear-gradient(to right, #1d5bec, #062384) no-repeat fixed;
+  background-size: cover;
+}
+header h1 {
   text-align: center;
-  background-color: #031d37;
-  border-bottom: 2px solid rgb(0, 0, 0);
+  color: #efedff;
+  margin-bottom: 0.5rem;
+}
+header p {
   font-weight: bold;
-  color: #10b3ee;
+  text-align: center;
+  margin-top: 0;
+}
+header .minav {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header .minav .logo-tienda {
+  margin-right: 15px;
+}
+header .minav .logo-tienda img {
+  max-height: 40px;
+  width: auto;
+}
+header .minav a {
+  color: #efedff;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  background: rgba(0, 0, 0, 0);
+  box-shadow: rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+header .minav a:hover {
+  background: #216ee0;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 5px 2px;
+}
+header .nav-mobile {
+  background: linear-gradient(to right, #1d5bec, #062384) no-repeat fixed;
+  background-size: cover;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+header .logo-movil {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  max-width: 65%;
+}
+header .logo-movil img {
+  height: 30px;
+  max-width: 100%;
+  width: auto;
+  display: block;
+}
+header .btn-mobile {
+  border-color: rgb(255, 255, 255) !important;
+  box-shadow: rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.2s ease-in-out;
+}
+header .btn-mobile .navbar-toggler-icon {
+  filter: invert(1) brightness(2);
+}
+header .btn-mobile:hover {
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 100px 0px;
 }
 
 .minav img {
   max-width: 10%;
-  display: inline-block;
 }
 
 .a {
-  margin-right: 1.5rem;
+  margin-right: 1rem;
   color: white;
 }
 
+a {
+  text-decoration: none;
+}
 a:hover {
   color: #10b3ee;
-  text-decoration: none;
 }
 a:active {
   color: white;
-}
-
-body {
-  font-family: "Open Sans", sans-serif;
 }
 
 #fondo {
   margin: 0;
   padding: 0;
   background-color: #f0f4f8;
+  font-family: "Libre Franklin", sans-serif;
   font-size: larger;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif !important;
+}
+
+.mi-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 5px 0px;
 }
 
 .footer {
   text-align: center;
-  border-top: 2px solid rgb(10, 10, 11);
-  background-color: #031d37;
   color: rgb(255, 255, 255);
   margin-left: 0;
   margin-right: 0;
   margin-top: 50px;
   padding: 20px;
+  background: linear-gradient(to right, #1d5bec, #062384) no-repeat fixed;
+  background-size: cover;
 }
 
 .box3 {
@@ -54,7 +130,13 @@ body {
 }
 
 .logo-tienda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-tienda img {
   max-width: 100%;
+  height: auto;
 }
 
 @media (max-width: 680px) {

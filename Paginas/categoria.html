@@ -7,69 +7,65 @@
     <link rel="stylesheet" href="../CSS/styles.css">
     <link rel="stylesheet" href="../CSS/categoria.css">
     <link rel="icon" href="../Img/logo.jpg" type="image">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <title>Categoria de Producto</title>
 </head>
+
 <body id="fondo">
     <header>
-        <nav class= "minav d-none d-sm-block">
-            <div>
-                <img class="logo-tienda" src="../Img/logo-transparente.png" alt="Logo-TDFTech">
+        
+        <nav class="minav d-none d-md-flex">
+            <div class="logo-tienda">
+                <img src="../Img/logo-transparente.png" alt="Logo-TDFTech">
             </div>
-            <p">
-                <a class="a" href="../index.html">Inicio</a>
-                <a class="a" href="../Paginas/categoria.html">Categorias</a>
-                <a class="a" href="../Paginas/detalle.html">Detalles</a>
-                <a class="a" href="../Paginas/productos.html">Productos</a>
-                <a class="a" href="../Paginas/newsletter.html">Newsletter</a>
-            </p>
+            <a href="../index.html">Inicio</a>
+            <a href="../Paginas/categoria.html">Categorias</a>
+            <a href="../Paginas/detalle.html">Detalle</a>
+            <a href="../Paginas/productos.html">Productos</a>
+            <a href="../Paginas/newsletter.html">Newsletter</a>
         </nav>
-        <nav class= "navbar bg-body-tertiary fixed-top d-lg-none">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">TDFTech</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">TDFTech</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../Paginas/detalle.html">Detalles</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../Paginas/categoria.html">Categorias</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../Paginas/productos.html">Productos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../Paginas/newsletter.html">Contacto</a>
-          </li>
-      </div>
-    </div>
-  </div>
-</nav>
+
+        <nav class="navbar bg-body-tertiary fixed-top d-block d-md-none nav-mobile">
+            <div class="container-fluid">
+                <a class="navbar-brand btn-mobile" href="../index.html">
+                    <img src="../Img/tdf-tech-mobile.png" alt="Logo-TDFTech" width="35%" height="35%" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler btn-mobile" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">TDFTech</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item"><a class="nav-link active" href="../index.html">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../Paginas/detalle.html">Detalles</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../Paginas/categoria.html">Categorias</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../Paginas/productos.html">Productos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../Paginas/newsletter.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
+    
+    <!-- TABLAS -->
+
     <main class="mi-main">
         <h2 class="h2">
             Categorias de Productos
         </h2>
         <section class="mi-section">
-            <table class="mi-table" border="1">
-                <thead>
-                    <CAPtion class="mi-caption">
-                        <strong>
-                           Accesorios: 
-                        </strong>
-                    </CAPtion>
-                    <tr>
+            <table class="mi-table">
+            <thead>
+                <caption class="mi-caption">
+                    <strong>
+                        Accesorios: 
+                    </strong>
+                </caption>
+                <tr>
                         <th>
                             Productos
                         </th>
@@ -113,27 +109,27 @@
                     </tr>
                 </tbody>
             </table>
-                <table class="table2" border="1">
-                    <thead>
-                        <CAPtion class="mi-caption">
-                            <strong>
-                                Componentes:
-                            </strong>
-                        </CAPtion>
-                        <tr>
-                            <th>
-                                Productos
-                            </th>
-                            <th>
-                                Descripción
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                Placa Base ASUS ROG Strix Z490-E Gaming
-                            </td>
+            <table class="table2">
+                <thead>
+                    <caption class="mi-caption">
+                        <strong>
+                            Componentes:
+                        </strong>
+                    </caption>
+                    <tr>
+                        <th>
+                            Productos
+                        </th>
+                        <th>
+                            Descripción
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Placa Base ASUS ROG Strix Z490-E Gaming
+                        </td>
                             <td>
                                 Con chipset Intel Z490, compatible con procesadores Intel de 10ª generación, diseño robusto y características avanzadas para gamers.
                             </td>
@@ -165,14 +161,15 @@
                 </tbody>
             </table>
             </section>
+
             <section class="section-table3">
-                <table class="table3" border="1">
+                <table class="table3">
                     <thead>
-                        <Caption class="mi-caption">
+                        <caption class="mi-caption">
                             <strong>
                                 Notebooks:
                             </strong>
-                        </Caption>
+                        </caption>
                         <tr>
                             <th>
                                 Productos
@@ -217,13 +214,13 @@
                         </tr>
                     </tbody>
                 </table>
-                <table class="table3" border="1">
+                <table class="table3">
                     <thead>
-                        <Caption class="mi-caption">
+                        <caption class="mi-caption">
                             <strong>
                                 Multimedia;
                             </strong>
-                        </Caption>
+                        </caption>
                         <tr>
                             <th>
                                 Productos
@@ -275,7 +272,6 @@
                 Contacto:
             </strong>
         <div class="box3">
-            <br>
                     <a class="a" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjhj62Wo4yUAxXSr5UCHcuhCYwQFnoECA4QAQ&url=https%3A%2F%2Fweb.whatsapp.com%2F&usg=AOvVaw1V09js0t2A_u6GXzP1jPsR&opi=89978449" target="_blank">WhatsApp</a>
 
                     <a class="a" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwik2tyopIyUAxWMgGEGHYoFNvMQFnoECA0QAQ&url=https%3A%2F%2Fwww.instagram.com%2F&usg=AOvVaw1cBeRoOpMhZ3-x5M1sA3Fm&opi=89978449" target="_blank">Instagram</a>

@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="../CSS/newsletter.css">
     <link rel="stylesheet" href="../CSS/styles.css">
     <link rel="icon" href="../Img/logo.jpg" type="image">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <title>Newsletter</title>
 </head>
 <body id="fondo">
@@ -58,14 +57,16 @@
 </nav>
         </header>
     <main class="mi-main">
-            <strong class="strong-titulo">
-                Suscripción al Newsletter
-            </strong>
-        <div class="box-msj">
+        <div>
             <p>
                 Suscríbete a nuestro newsletter para recibir las últimas ofertas, novedades y promociones directamente en tu bandeja de entrada. Mantente informado sobre nuestros productos, eventos especiales y descuentos exclusivos. ¡No te pierdas ninguna oportunidad de ahorrar y descubrir lo nuevo en NombreTienda!
             </p>
         </div>
+        <legend>
+            <strong>
+                Suscripción al Newsletter
+            </strong>
+        </legend>
         <form class="form" action="#" method="get">
             <fieldset class="mis-items">
 
@@ -82,14 +83,12 @@
                 <br>
 
                 <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="1" cols="25" minlength="10" maxlength="300"></textarea>
+                <textarea id="mensaje" name="mensaje" rows="1" cols="20" minlength="10" maxlength="200"></textarea>
 
                 <br>
                 <br>
 
-                <label for="mensaje"> 
-                    Elija la categoria de su interes:
-                </label>
+                <label for="mensaje"> Elija la categoria de su interes:</label>
 
                 <input type="radio" name="categoria" id="accesorios" value="accesorios" required>
                 <label for="accesorios">Accesorios</label>

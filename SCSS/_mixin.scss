@@ -1,22 +1,15 @@
 @use "variables" as vars;
 
-@mixin navbar{
-    .minav{
-        margin: 0;
-        width: 100%;
-        box-sizing: border-box;
-        text-align: center;
-        background-color: vars.$color-fondo;
-        border-bottom: 2px solid rgb(0, 0, 0);
-        font-weight: bold;
-        color: vars.$color-principal;
-    }
+@mixin fondo-fijo($dir, $color1, $color2) {
+  background: linear-gradient($dir, $color1, $color2) no-repeat fixed;
+  background-size: cover;
 }
+
 @mixin hover{
     a{
+        text-decoration: none;
         &:hover{
             color: vars.$color-principal;
-            text-decoration: none;
         }
         &:active{
             color: white;
@@ -26,8 +19,7 @@
 @mixin img{
       .minav img{
         max-width: 10%;
-        display: inline-block;
-      }
+    }
     .a{
         margin-right: vars.$espaciado-base;
         color: white;
