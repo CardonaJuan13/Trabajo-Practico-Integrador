@@ -14,7 +14,8 @@
 }
 
 #desc-kumara p,
- #desc-G203 p {
+ #desc-G203 p,
+ #desc-PadHyperx p {
     text-align: justify;
     width: 90%;
     margin: 0 auto;
@@ -24,6 +25,12 @@
 .columna-detalle1, .columna-detalle2 {
   flex: 1;
   min-width: 350px;
+}
+.carousel-inner {
+    margin-bottom: 50px;
+}
+.carousel-indicators {
+    bottom: -50px;
 }
 
 .titulo {
