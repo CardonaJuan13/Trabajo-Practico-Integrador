@@ -1,7 +1,7 @@
 @use "variables" as vars;
 
 .main-detalle{
-    font-family: cursive;
+    font-family: vars.$font-family;
 }
 
 .especificaciones {
@@ -15,7 +15,8 @@
 
 #desc-kumara p,
  #desc-G203 p,
- #desc-PadHyperx p {
+ #desc-PadHyperx p,
+ #desc-AuriAsusRog {
     text-align: justify;
     width: 90%;
     margin: 0 auto;
