@@ -1,0 +1,71 @@
+.minav {
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #031d37;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  font-weight: bold;
+  color: #10b3ee;
+}
+
+.minav img {
+  max-width: 10%;
+  display: inline-block;
+}
+
+.a {
+  margin-right: 1.5rem;
+  color: white;
+}
+
+a:hover {
+  color: #10b3ee;
+  text-decoration: none;
+}
+a:active {
+  color: white;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#fondo {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8;
+  font-size: larger;
+}
+
+.footer {
+  text-align: center;
+  border-top: 2px solid rgb(10, 10, 11);
+  background-color: #031d37;
+  color: rgb(255, 255, 255);
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.box3 {
+  text-align: center;
+}
+
+.logo-tienda {
+  max-width: 100%;
+}
+
+@media (max-width: 680px) {
+  .nav {
+    display: none !important;
+  }
+  .header {
+    padding-bottom: 50px;
+  }
+  .h1-header {
+    font-size: larger;
+    margin-top: 60px;
+  }
+}/*# sourceMappingURL=styles.css.map */
