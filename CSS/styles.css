@@ -43,6 +43,9 @@
 
 #desc-kumara p {
   text-align: justify;
+  width: 90%;
+  margin: 0 auto;
+  align-content: center;
 }
 
 .columna-detalle1, .columna-detalle2 {
@@ -77,31 +80,43 @@
      object-fit: contain;
 }
 
-.nav-pills .nav-link.active {
-  background-color: #10b3ee;
-  color: white;
+.nav-pills {
+  margin: 0 auto;
+  width: 90%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1843137255);
 }
-.nav-pills .nav-link.active:hover {
-  background-color: #10b3ee;
-  color: white;
-}
-
 .nav-pills .nav-link {
   color: #031d37;
   border: 1px solid rgba(0, 0, 0, 0.1843137255);
+  border-radius: 0;
+}
+.nav-pills .nav-link:hover {
+  background-color: #10b3ee;
+  color: white;
+}
+.nav-pills .nav-link.active {
+  background-color: #10b3ee;
+  color: white;
+  border-color: #10b3ee;
 }
 
 .contenedor-tabla {
-  line-height: 100%;
-  margin-top: 20px;
+  margin-top: 10px;
+  width: 90%;
+  margin: 0 auto;
+  -moz-columns: 2;
+       columns: 2;
 }
 
 .contenedor-tabla li {
   margin-bottom: 8px;
+  width: 50%;
 }
 
 .tab-content {
   padding: 20px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 @media (max-width: 680px) {
