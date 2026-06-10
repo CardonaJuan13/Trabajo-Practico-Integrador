@@ -1,6 +1,8 @@
 @use "variables" as vars;
 
-/* Centrar contenido */
+.main {
+    font-family: vars.$font-family;
+}
 .container {
     display: flex;
     flex-wrap: wrap;
