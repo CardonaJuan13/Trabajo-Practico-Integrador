@@ -41,7 +41,8 @@
   gap: 20px;
 }
 
-#desc-kumara p {
+#desc-kumara p,
+#desc-G203 p {
   text-align: justify;
   width: 90%;
   margin: 0 auto;
