@@ -1,5 +1,10 @@
 @use "mixin" as mx;
 @use "variables" as vars;
+@use "productos";
+@use "newsletter";
+@use "categoria";
+@use "index";
+@use "detalle";
 @include mx.navbar;
 @include mx.img;
 @include mx.hover;

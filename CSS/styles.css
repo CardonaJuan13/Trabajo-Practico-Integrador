@@ -1,3 +1,399 @@
+@charset "UTF-8";
+/* Centrar contenido */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+#h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Tarjetas */
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: 12px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+/* Imágenes */
+.card img {
+  width: 100%;
+  height: 150px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+/* Títulos */
+.card h2 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* Texto */
+.card p {
+  font-size: 16px;
+}
+
+/* Precio */
+.precio {
+  font-weight: bold;
+  color: green;
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  #h1 {
+    margin-top: 80px;
+  }
+}
+.form {
+  text-align: center;
+  padding-top: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #f0f4f8;
+  max-width: 100%;
+}
+
+.mis-items {
+  max-width: 100%;
+  text-align: left;
+  padding: 2%;
+  border-color: black;
+  border-width: 2px;
+  border-style: double;
+}
+
+.box-msj {
+  padding-top: 1rem;
+}
+
+.mi-main {
+  text-align: center;
+  line-height: 150%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .mis-items {
+    max-width: 100%;
+    text-align: left;
+    margin: 3%;
+    padding: 5.4%;
+    border-color: black;
+    border-width: 3px;
+  }
+  main div {
+    margin-top: 1rem;
+    line-height: 180%;
+  }
+  main {
+    padding-top: 2rem;
+  }
+}
+.h2 {
+  text-align: center;
+}
+
+.mi-table {
+  margin-top: 35px;
+  margin-left: 3%;
+  margin-right: 3%;
+  max-width: 40%;
+  caption-side: top;
+}
+
+th {
+  border-width: 1px;
+  border-color: black;
+}
+
+tr td {
+  border-color: black;
+  border-width: 1px;
+}
+
+.mi-caption {
+  border: 1.5px solid black;
+  font-size: larger;
+  background-color: #031d37;
+  color: white;
+  text-align: center;
+}
+
+.table2 {
+  max-width: 40%;
+  margin-left: 1%;
+  margin-right: 3%;
+  margin-top: 35px;
+  caption-side: top;
+}
+
+.mi-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2%;
+}
+
+.table3 {
+  max-width: 40%;
+  caption-side: top;
+}
+
+.table3 tbody {
+  line-height: 150%;
+  border-color: black;
+}
+
+.section-table3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+  .h2 {
+    margin-top: 60px;
+  }
+  .mi-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mi-table {
+    max-width: 90%;
+    margin-top: 20px;
+  }
+  .table2 {
+    max-width: 90%;
+    margin-top: 20px;
+  }
+  .section-table3 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .table3 {
+    max-width: 90%;
+    margin-top: 20px;
+  }
+}
+.main {
+  text-align: center;
+  line-height: 150%;
+  font-size: larger;
+}
+
+.section {
+  max-width: 100%;
+  margin-top: 2%;
+  background-color: #f0f4f8;
+  margin-left: 2%;
+}
+
+.strong-titulo {
+  font-size: x-large;
+  margin-right: 4%;
+  text-decoration: underline;
+}
+
+.box-section {
+  max-width: 100%;
+  margin-right: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  border: 3px solid black;
+  border-radius: 15px;
+  align-items: center;
+  background-color: #0d4a87;
+  color: white;
+  padding: 10px;
+}
+
+.strong-section {
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+}
+
+.box1 {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.box2 {
+  max-width: 100%;
+  padding: 2%;
+  padding-top: 4%;
+  border-top: 3px solid black;
+  border-width: 100%;
+  line-height: 100%;
+}
+
+.h1-header {
+  font-size: xx-large;
+  text-align: left;
+  max-width: 100%;
+}
+
+.header {
+  border-bottom: 3px solid black;
+  font-size: larger;
+  background-color: #0d4a87;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 5%;
+  max-height: 100%;
+  max-width: 100%;
+  color: white;
+  border-top: 3px solid black;
+}
+
+.enlace-header {
+  background-color: #38B575;
+  border: 4px solid rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: black;
+  max-width: 100%;
+  margin-top: 30px;
+}
+
+.contenedor-header {
+  display: flex;
+}
+
+.header-texto {
+  padding-top: 10%;
+  width: 250px;
+}
+
+.header-imagen {
+  height: 190px;
+  width: 100%;
+  background-image: url("../Img/imagen-fondo-header-larga.png");
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 680px) {
+  .box1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box1 .box-section {
+    margin-bottom: 2rem;
+  }
+  .box2 strong {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  .contenedor-header {
+    display: flex;
+  }
+  .header-texto {
+    flex: 0;
+    margin-right: 10px;
+  }
+  .header-imagen {
+    margin-top: 10%;
+    flex: 3;
+    min-width: 100px;
+    height: 130px;
+    background-image: url("../Img/imagen-fondo-header.png");
+    background-size: cover;
+  }
+}
+.titulo {
+  font-size: 35px;
+}
+
+.precio-detalle {
+  font-size: 35px;
+  background-color: #38B575;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.especificaciones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.esp-img {
+  background-color: rgb(255, 255, 255);
+  border: 3px solid;
+  margin: 40px;
+  padding: 60px;
+}
+
+.contenedor-tabla {
+  line-height: 100%;
+  margin-top: 70px;
+}
+
+.contenedor-tabla li {
+  margin-bottom: 8px;
+}
+
+img {
+  border-radius: 15px;
+  margin: auto;
+}
+
+.descripción {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+
+.h3-detalle {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .contenedor-producto {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+  }
+  .precio-detalle {
+    max-width: 60%;
+    font-size: larger;
+    text-align: center;
+  }
+  .esp-img {
+    max-width: 90%;
+  }
+  .descripción {
+    border: none;
+  }
+  .titulo {
+    margin-top: 2rem !important;
+  }
+}
 .minav {
   margin: 0;
   width: 100%;

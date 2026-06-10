@@ -1,7 +1,10 @@
+@use "mixin" as mx;
+@use "variables" as vars;
+
 .titulo {
     font-size: 35px;
 }
-.precio {
+.precio-detalle {
     font-size: 35px;
     background-color: #38B575;
     color: rgb(255, 255, 255);
@@ -51,7 +54,7 @@ img {
         align-items: center;
         margin-top: 20%;
     }
-    .precio{
+    .precio-detalle{
         max-width: 60%;
         font-size: larger;
         text-align: center;

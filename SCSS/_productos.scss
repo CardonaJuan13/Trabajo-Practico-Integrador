@@ -1,0 +1,29 @@
+@use "mixin" as mx;
+@use "variables" as vars;
+/* Centrar contenido */
+@include mx.container;
+#h1{
+    text-align: center;
+    margin-top: 20px;
+}
+/* Tarjetas */
+    @include mx.cards;
+/* Imágenes */
+@include mx.cardsImg;
+/* Títulos */
+.card h2 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Texto */
+.card p {
+    font-size: 16px;
+}
+/* Precio */
+@include mx.boton-precio;
+@media(max-width: 768px){
+    #h1{
+        margin-top: 80px;
+    }
+}
