@@ -3,59 +3,98 @@
 .main-detalle{
     font-family: cursive;
 }
+
 .especificaciones {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+  align-items: flex-start;
   padding: 40px;
+  gap: 20px;
 }
-.columna-izquierda, .columna-derecha {
+
+#desc-kumara p {
+    text-align: justify;
+}
+
+.columna-detalle1, .columna-detalle2 {
   flex: 1;
+  min-width: 350px;
 }
 
 .titulo {
     font-size: 35px;
     text-align: center;
+    font-weight: bold;
 }
+
 .precio {
     font-size: 35px;
     padding: 15px;
-    border-radius: vars.$borde-redondeado;
+    text-align: center;
+    width: 100%;
 }
 
 .esp-img {
     border: vars.$borde-general;
-    margin: 40px;
-    padding: 60px;
+    margin: 20px;
+    padding: 10px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.carousel-item img {
+    height: 300px;
+    object-fit: contain;
+}
+
+.nav-pills .nav-link.active {
+    background-color: vars.$color-principal;
+    color: white;
+    
+
+    &:hover {
+        background-color: vars.$color-hover;
+        color: white;
+    }
+}
+
+.nav-pills .nav-link {
+    color: vars.$color-header;
+    border: vars.$borde-general;
 }
 .contenedor-tabla{
     line-height: 100%;
-    margin-top: 70px;
+    margin-top: 20px;
 }
+
 .contenedor-tabla li {
     margin-bottom: 8px;
 }
 
-img { 
-    border-radius: vars.$borde-redondeado;
-    margin: auto;
+.tab-content {
+    padding: 20px;
 }
 
-.descripción {
-    max-width: 900px;
-    margin: auto;
-    padding: 30px;
-    border-left: vars.$borde-general;
-    border-right: vars.$borde-general;
-}
-.h3-detalle{
-    text-align: center;
-}
+
 @media(max-width: 680px){
     .especificaciones {
-        display: flex;
         flex-direction: column;
         align-items: left;
-        margin-top: 50%;
+        margin-top: 10%;
+    }
+.tab-content {
+        display: block !important; 
+        opacity: 1 !important;
+        visibility: visible !important;
+        height: auto !important;
+        overflow: visible !important;
+    }
+
+    /* Opcional: Si las pestañas se ven muy juntas, separamos los botones */
+    .nav-pills {
+        gap: 10px;
+        margin-bottom: 20px;
     }
     .titulo {
         font-size: 35px;
