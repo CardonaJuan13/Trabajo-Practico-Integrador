@@ -25,18 +25,6 @@ body{
     box-shadow: vars.$color-sombra 0px 2px 5px 0px;
 }
 
-.footer{
-    text-align: center;
-    color: rgb(255, 255, 255);
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 50px;
-    padding: 20px;
-    @include mx.fondo-fijo(to right, vars.$color-fondo-izq, vars.$color-fondo-der);
-}
-.box3{
-    text-align: center;
-}
 .logo-tienda{
     display: flex;
     justify-content: center;
@@ -58,5 +46,25 @@ body{
         font-size: larger;
         margin-top: 60px;
     }
+}
+
+.footer {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #113b66;
+}
+
+.footer-link {
+  padding: 10px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #10b3ee;
 }
 

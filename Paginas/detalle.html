@@ -10,50 +10,45 @@
     <title>Detalle del producto</title>
 </head>
 <body id="fondo">
-        <nav class= "minav d-none d-md-block">
-            <div>
-                <img class="logo-tienda" src="../Img/logo-transparente.png" alt="Logo-TDFTech">
+        <header>
+        
+        <nav class="minav d-none d-md-flex">
+            <div class="logo-tienda">
+                <img src="../Img/logo-transparente.png" alt="Logo-TDFTech">
             </div>
-            <p">
-                <a class="a" href="../index.html">Inicio</a>
-                <a class="a" href="../Paginas/categoria.html">Categorias</a>
-                <a class="a" href="../Paginas/detalle.html">Detalles</a>
-                <a class="a" href="../Paginas/productos.html">Productos</a>
-                <a class="a" href="../Paginas/newsletter.html">Newsletter</a>
-            </p>
+            <a href="../index.html">Inicio</a>
+            <a href="../Paginas/categoria.html">Categorias</a>
+            <a href="../Paginas/detalle.html">Detalle</a>
+            <a href="../Paginas/productos.html">Productos</a>
+            <a href="../Paginas/newsletter.html">Newsletter</a>
         </nav>
-        <nav class="navbar bg-body-tertiary fixed-top d-lg-none">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">TDFTech</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">TDFTech</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../Paginas/detalle.html">Detalles</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../Paginas/categoria.html">Categorias</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../Paginas/productos.html">Productos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../Paginas/newsletter.html">Contacto</a>
-          </li>
-      </div>
-    </div>
-  </div>
-</nav>
+
+        <nav class="navbar bg-body-tertiary fixed-top d-block d-md-none nav-mobile">
+            <div class="container-fluid">
+                <a class="navbar-brand btn-mobile" href="../index.html">
+                    <img src="../Img/tdf-tech-mobile.png" alt="Logo-TDFTech" width="35%" height="35%" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler btn-mobile" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">TDFTech</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item"><a class="nav-link active" href="../index.html">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../Paginas/detalle.html">Detalles</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../Paginas/categoria.html">Categorias</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../Paginas/productos.html">Productos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../Paginas/newsletter.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
     <main class="main-detalle">
       <section class="especificaciones">
         <h2 class="titulo">Teclado Kumara K552</h2>

@@ -5,18 +5,12 @@ header {
     max-width: 100%;
     margin: 0 auto 1rem auto;
     padding: 1rem;
-    @include mx.fondo-fijo(to right, vars.$color-fondo-izq, vars.$color-fondo-der);
+    background-color: vars.$color-nav-fondo;
 
     h1 {
         text-align: center;
-        color: vars.$color-titulo;
+        color: vars.$texto-boton;
         margin-bottom: 0.5rem;
-    }
-
-    p {
-        font-weight: bold;
-        text-align: center;
-        margin-top: 0;
     }
 
     .minav {       
@@ -33,42 +27,31 @@ header {
         }
 
         a {
-            color: vars.$color-titulo;
+            color: vars.$texto-boton;
             text-decoration: none;
             padding: 10px 20px;
             margin: 0 5px;
             background: vars.$color-bot-fondo-transp;
             box-shadow: vars.$color-sombra;
-            border-radius: vars.$radio-grande;
+            border-radius: vars.$radio-boton;
             transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 
             &:hover {
-                background: vars.$color-bot-fondo;
+                background: vars.$color-bot-hover;
                 box-shadow: vars.$color-sombra 0px 2px 5px 2px;
             }
         }
     }
 
     .nav-mobile {
-        @include mx.fondo-fijo(to right, vars.$color-fondo-izq, vars.$color-fondo-der); 
+        background-color: vars.$color-nav-fondo !important; 
         padding-top: 10px;
         padding-bottom: 10px;
         box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2); 
     }
-
-    .logo-movil {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        align-items: center;
-        max-width: 65%;
-
-        img {
-            height: 30px;
-            max-width: 100%;
-            width: auto;
-            display: block;
-        }
+    .nav-mobile a{
+        width: 70%;
+        height: 100%;
     }
 
     .btn-mobile {

@@ -1,10 +1,5 @@
 @use "variables" as vars;
 
-@mixin fondo-fijo($dir, $color1, $color2) {
-  background: linear-gradient($dir, $color1, $color2) no-repeat fixed;
-  background-size: cover;
-}
-
 @mixin hover{
     a{
         text-decoration: none;

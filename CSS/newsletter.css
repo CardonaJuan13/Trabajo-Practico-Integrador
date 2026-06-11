@@ -1,40 +1,65 @@
+.mi-main{
+    text-align: center;
+    width: 70%;
+}
+
 .form{
     text-align: center;
-    padding-top: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: #f0f4f8;
+    padding: 10px;
+    background-color: #ffffff/*#f0f4f8*/;
     max-width: 100%;
 }
 .mis-items{
+    display: flex;
+    flex-direction: column;
     max-width: 100%;
     text-align: left;
-    padding: 2%;
-    border-color: black;
-    border-width: 2px;
-    border-style:double ;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #f0f4f8;
+    border-radius: 10px;
 }
-.mi-main{
-    /*font-family: cursive;*/
-    text-align: center;
-    line-height: 150%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 50px;
-    margin-bottom: 20px;
+
+.select-placeholder {
+    font-style: italic;
+    color:grey;
 }
-@media (max-width: 600px) {
-    .mis-items{
-        max-width: 100%;
+.select-placeholder:valid{
+    color: black;
+}
+.select-placeholder option {
+    color: black;
+}
+
+.boton-confirmar{
+    background-color: #1d5bec;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.boton-limpiar{
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .mi-main{
         text-align: left;
-        margin: 3%;
-        padding: 2%;
-        border-color: black;
-        border-width: 3px;
+        width: 100%;
     }
-    main div{
-        margin-top: 80px;
-        line-height: 180%;
+    .form{
+        text-align: center;
+        padding: 5%;
+        background-color: #ffffff/*#f0f4f8*/;
+        max-width: 100%;
     }
     label{
         margin: 2%;
