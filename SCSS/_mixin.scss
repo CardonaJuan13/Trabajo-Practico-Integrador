@@ -11,6 +11,10 @@
         font-weight: bold;
         color: vars.$color-principal;
     }
+    .a{
+        font-size: larger;
+        text-decoration: none;
+    }
 }
 @mixin hover{
     a{

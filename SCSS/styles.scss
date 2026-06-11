@@ -9,6 +9,9 @@
 @include mx.img;
 @include mx.hover;
 
+html{
+    overflow-y: scroll;
+}
 body{
     font-family: vars.$fuente-principal;
 }
