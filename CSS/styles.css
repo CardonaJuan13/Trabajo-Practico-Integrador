@@ -268,22 +268,8 @@
 .strong-titulo {
   align-items: center;
   margin-right: 4%;
-  font-size: 40px;
+  font-size: 35px;
   color: #031d37;
-}
-
-.box-section {
-  margin-right: 5%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 3px solid black;
-  border-radius: 15px;
-  background-color: #031d37;
-  color: white;
-  padding: 10px;
 }
 
 .box1 {
@@ -291,28 +277,70 @@
   justify-content: space-between;
   padding: 20px;
 }
-
-.box2 {
-  padding: 2%;
-  padding-top: 4%;
-  border-top: 3px solid black;
-  line-height: 100%;
+.box1 .box-section {
+  margin-right: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: #031d37;
+  color: white;
+  padding: 10px;
 }
-
-.strong-section {
+.box1 .strong-section {
   display: flex;
   flex-direction: column;
   color: rgb(255, 255, 255);
 }
-
-.text-box {
+.box1 .img-envio,
+.box1 .img-garantia,
+.box1 .img-calidad {
+  width: 40%;
+}
+.box1 .text-box {
   font-size: 15px;
   width: 80%;
   text-align: justify;
 }
 
+.box2 {
+  padding: 2%;
+  padding-top: 4%;
+  border-top: 1px solid black;
+  line-height: 100%;
+}
+.box2 .producto-destacado {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+.box2 .producto-destacado img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+.box2 .producto-destacado .info-producto {
+  flex: 1;
+}
+.box2 .product-elegidos {
+  width: 50%;
+  font-weight: 700;
+  font-size: 35px;
+  color: #031d37;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
 .header {
-  border-bottom: 3px solid black;
+  border-bottom: 1px solid black;
   background-size: 100%;
   background-repeat: no-repeat;
   padding: 3%;
@@ -321,7 +349,31 @@
   border-top: 3px solid black;
 }
 
-.enlace-header {
+.contenedor-header {
+  display: flex;
+  width: 100%;
+}
+.contenedor-header .header-texto {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+}
+.contenedor-header .h1-header {
+  color: #031d37;
+  font-weight: 900;
+  font-size: 50px;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.contenedor-header .sub-header {
+  color: #031d37;
+  font-weight: 900;
+  font-size: 25px;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.contenedor-header .enlace-header {
   display: block;
   text-align: center;
   width: 40%;
@@ -333,81 +385,49 @@
   text-decoration: none;
   color: #ffffff;
 }
-.enlace-header:hover {
+.contenedor-header .enlace-header:hover {
   background-color: #10b3ee;
 }
-
-.contenedor-header {
-  display: flex;
-  width: 100%;
-}
-
-.h1-header {
-  color: #031d37;
-  font-weight: 900;
-  font-size: 50px;
-  width: 100%;
-  padding-bottom: 10px;
-}
-
-.sub-header {
-  color: #031d37;
-  font-weight: 900;
-  font-size: 25px;
-  width: 100%;
-  padding-bottom: 20px;
-}
-
-.header-imagen {
+.contenedor-header .header-imagen {
   align-content: center;
   width: 40%;
 }
 
-.header-texto {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  padding-left: 100px;
-}
-
-.img-envio,
-.img-garantia,
-.img-calidad {
-  width: 40%;
-}
-
 @media (max-width: 680px) {
-  .box1 {
-    display: column;
-    flex-wrap: wrap;
+  .contenedor-header {
+    flex-direction: column;
+    align-items: center;
   }
-  .box1 .box-section {
-    margin-bottom: 2rem;
+  .contenedor-header .h1-header {
+    font-size: larger;
+    width: 80%;
   }
-  .box-section {
-    margin-right: 0;
+  .contenedor-header .sub-header {
+    width: 80%;
+  }
+  .contenedor-header .header-texto {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+  }
+  .contenedor-header .header-imagen {
+    width: 100%;
+  }
+  .contenedor-header .enlace-header {
+    width: 80%;
   }
   .box2 strong {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
   }
-  .contenedor-header {
+  .box1 {
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .header-texto {
-    width: 100%;
-    padding-left: 0;
-  }
-  .enlace-header {
-    width: 60%;
-  }
-  .h1-header {
-    font-size: larger;
-  }
-  .header-imagen {
-    width: 100%;
+  .box1 .box-section {
+    margin-bottom: 2rem;
   }
 }
 #fondo {
