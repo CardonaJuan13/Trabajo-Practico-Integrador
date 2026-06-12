@@ -1,19 +1,26 @@
-@use "variables" as vars;
 @use "mixin" as mx;
-@use "navbar";
-@use "detalle";
+@use "variables" as vars;
 @use "productos";
+@use "newsletter";
+@use "categoria";
 @use "index";
+@use "detalle";
+@include mx.navbar;
+@include mx.img;
+@include mx.hover;
 
-
+html{
+    overflow-y: scroll;
+}
+body{
+    font-family: vars.$fuente-principal;
+}
 #fondo{
     margin: 0;
     padding: 0;
-    background-color: vars.$color-fondo;
-    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
     font-size: larger;
 }
-
 .footer{
     text-align: center;
     border-top: 2px solid rgb(10, 10, 11);

@@ -6,17 +6,27 @@
         width: 100%;
         box-sizing: border-box;
         text-align: center;
-        background-color: vars.$color-header;
+        background-color: vars.$color-fondo;
         border-bottom: 2px solid rgb(0, 0, 0);
         font-weight: bold;
         color: vars.$color-principal;
+    }
+    .a{
+        color: vars.$texto-boton;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            background: vars.$color-bot-fondo-transp;
+            box-shadow: vars.$color-sombra;
+            border-radius: vars.$radio-boton;
+            transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
     }
 }
 @mixin hover{
     a{
         &:hover{
-            color: vars.$color-hover;
-            text-decoration: none;
+            background: vars.$color-bot-hover;
+                box-shadow: vars.$color-sombra 0px 2px 5px 2px;
         }
         &:active{
             color: white;
@@ -32,4 +42,57 @@
         margin-right: vars.$espaciado-base;
         color: white;
     }
+}
+@mixin cards{
+    .card {
+    display: flex;
+    flex-direction: column; 
+    width: 250px;
+    margin: 12px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+}
+@mixin boton-precio{
+    .precio {
+    font-weight: bold;
+    color: green;
+    margin-top: auto;
+}
+}
+@mixin cardsImg{
+    .card img {
+    width: 100%;   
+    height: 150px; 
+    object-fit: contain; 
+}
+}
+@mixin container{
+    .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+}
+@mixin newsletter{
+    .form{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #efefef;
+    max-width: 100%;
+}
+.mis-items{
+    max-width: 100%;
+    text-align: left;
+    padding: 2%;
+    border-color: black;
+    border-width: 2px;
+    border-style:double ;
+}
 }

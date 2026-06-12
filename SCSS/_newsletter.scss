@@ -1,0 +1,48 @@
+@use "mixin" as mx;
+@use "variables" as vars;
+@include mx.newsletter;
+
+.box-msj{
+    padding-top:vars.$espaciado-chico;
+}
+.mi-main{
+    text-align: center;
+    line-height: 150%;
+    margin-left: vars.$espaciado-base;
+    margin-right: vars.$espaciado-base;
+    margin-top: vars.$espaciado-grande;
+    margin-bottom: vars.$espaciado-base;
+}
+.boton-confirmar{
+    background-color: #1d5bec;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.boton-limpiar{
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+@media (max-width: 600px) {
+    .mis-items{
+        max-width: 100%;
+        text-align: left;
+        margin: 1%;
+        padding: 5.6%;
+        border-color: black;
+        border-width: 3px;
+    }
+    main div{
+        margin-top: vars.$espaciado-chico;
+        line-height: 180%;
+    }
+    main{
+        padding-top: vars.$espaciado-grande;
+    }
+}
