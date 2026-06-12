@@ -604,6 +604,25 @@
     flex-wrap: wrap;
   }
 }
+.contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.btn:hover {
+  background: #2980b9;
+}
+
+.comparacion div {
+  margin: 2%;
+}
+
 .minav {
   margin: 0;
   width: 100%;

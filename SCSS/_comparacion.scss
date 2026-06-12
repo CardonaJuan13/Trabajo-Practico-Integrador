@@ -1,0 +1,17 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+.btn {
+  background: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+
+  &:hover {
+    background: #2980b9;
+  }
+}
+.comparacion div{
+    margin:2%
+}
