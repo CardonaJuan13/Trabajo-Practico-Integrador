@@ -1,69 +1,7 @@
 @use "variables" as vars;
 @use "mixin" as mx;
-
-header {
-    max-width: 100%;
-    margin: 0 auto 1rem auto;
-    padding: 1rem;
-    background-color: vars.$color-nav-fondo;
-
-    h1 {
-        text-align: center;
-        color: vars.$texto-boton;
-        margin-bottom: 0.5rem;
-    }
-
-    .minav {       
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-
-        .logo-tienda {
-            margin-right: 15px; 
-            img {
-                max-height: 40px; 
-                width: auto;
-            }
-        }
-
-        a {
-            color: vars.$texto-boton;
-            text-decoration: none;
-            padding: 10px 20px;
-            margin: 0 5px;
-            background: vars.$color-bot-fondo-transp;
-            box-shadow: vars.$color-sombra;
-            border-radius: vars.$radio-boton;
-            transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-
-            &:hover {
-                background: vars.$color-bot-hover;
-                box-shadow: vars.$color-sombra 0px 2px 5px 2px;
-            }
-        }
-    }
-
-    .nav-mobile {
-        background-color: vars.$color-nav-fondo !important; 
-        padding-top: 10px;
-        padding-bottom: 10px;
-        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2); 
-    }
-    .nav-mobile a{
-        width: 70%;
-        height: 100%;
-    }
-
-    .btn-mobile {
-        border-color: rgba(255, 255, 255) !important; 
-        box-shadow: vars.$color-sombra;
-        transition: box-shadow 0.2s ease-in-out;
-        .navbar-toggler-icon {
-            filter: invert(1) brightness(2); 
-        }
-  
-        &:hover {
-        box-shadow: vars.$color-sombra 0px 0px 100px 0px;
-        }
-    }
+@include mx.navbar;
+@include mx.img;
+.minav {
+    @include mx.hover;
 }

@@ -1,0 +1,143 @@
+@use "variables" as vars;
+
+.main {
+    font-family: vars.$fuente-principal;
+}
+
+.especificaciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 20px;
+}
+
+#desc-kumara p,
+ #desc-G203 p,
+ #desc-PadHyperx p,
+ #desc-AuriAsusRog {
+    text-align: justify;
+    width: 90%;
+    margin: 0 auto;
+    align-content: center;
+}
+
+.columna-detalle1, .columna-detalle2 {
+  flex: 1;
+  min-width: 350px;
+}
+.carousel-inner {
+    margin-bottom: 50px;
+}
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.titulo {
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.precio {
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+}
+
+.esp-img {
+    border: vars.$borde-general;
+    margin: 20px;
+    padding: 10px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.carousel-item img {
+    height: 300px;
+    object-fit: contain;
+}
+
+.nav-pills {
+    margin: 0 auto;
+    width: 90%;
+    border-bottom: vars.$borde-general;
+    .nav-link {
+    color: vars.$color-header;
+    border: vars.$borde-general;
+    border-radius: 0;
+
+    &:hover {
+        background-color: vars.$color-hover;
+        color: white;
+    }
+
+    &.active {
+        background-color: vars.$color-principal;
+        color: white;
+        border-color: vars.$color-principal;
+    }
+}
+}
+
+.contenedor-tabla{
+    margin-top: 10px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.contenedor-tabla li {
+    margin-bottom: 8px;
+    width: 50%;
+}
+
+.tab-content {
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+@media(max-width: 680px){
+    .especificaciones {
+        flex-direction: column;
+        align-items: left;
+        margin-top: 10%;
+    }
+    .tab-content {
+        display: block !important; 
+        opacity: 1 !important;
+        visibility: visible !important;
+        height: auto !important;
+        overflow: visible !important;
+    }
+    .nav-pills {
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    .titulo {
+        font-size: 35px;
+    }
+    .columna-izquierda {
+    width: 100%;
+    text-align: center;
+    }
+    .columna-derecha {
+        width: 100%;
+        text-align: center;
+    }
+
+    .esp-img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    .descripción {
+        display: flex;
+        font-size: 13px;
+        flex-wrap:wrap;
+    }
+}

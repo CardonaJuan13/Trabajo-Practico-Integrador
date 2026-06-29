@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
-
-
+$color-fondo: #031d37;
+$color-header: #031d37;
 $color-principal: #10b3ee;
-
-$fuente-base: 'Libre Franklin', sans-serif;
-
+$espaciado-chico: 1rem;
+$espaciado-base: 1.5rem;
+$borde-redondeado: 15px;
+$espaciado-grande: 2rem;
+$borde-general: 1px solid #0000002f;
+$radio-redondeado: 15px;
+$color-hover: #10b3ee;
+$fuente-principal: 'Open Sans', sans-serif;
+$color-textbtn: #ffffff;
 $texto-boton: #efedff;
 $color-bot-hover: #10b3ee;
 $color-bot-fondo-transp: rgba(0, 0, 0, 0);
@@ -14,4 +19,3 @@ $color-sombra: rgba(0, 0, 0, 0.08);
 $radio-boton: 15px;
 $radio-grande: 30px;
 $radio-mediano: 20px;
-$espaciado-base: 20px;
