@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "title": "Teclado Kumara K552",
+    "description": "Teclado mecánico Gamer con switches Cherry MX Red. contiene funciones de iluminación RGB y programación personalizada.",
+    "price": 87000,
+    "pictures": ["https://www.latechrd.com/cdn/shop/products/Slider_Kumara-B.png?v=1710877133&width=600"],
+    "category": "Accesorios",
+    "tags": ["teclado", "gamer", "mecanico", "rgb"]
+  },
+  {
+    "id": 2,
+    "title": "Logitech G203",
+    "description": "Ratón gaming ergonómico con sensor óptico de 6400 DPI. Tambien viene con RGB que se puede personalizar a tu gusto.",
+    "price": 70200,
+    "pictures": ["../Img/Caja Mouse G203.jpg"],
+    "category": "Accesorios",
+    "tags": ["mouse", "gamer", "logitech", "rgb"]
+  },
+  {
+    "id": 3,
+    "title": "HyperX Pulsefire Surge",
+    "description": "Mouse pad Gaming con una medida de 300x300 mm con una suavidad muy buena para el mouse.",
+    "price": 34800,
+    "pictures": ["https://cdn.kemik.gt/2022/08/4P4F9AA-HYPERX-1200X1200-1-1-768x768.jpg"],
+    "category": "Accesorios",
+    "tags": ["mousepad", "gamer", "hyperx"]
+  },
+  {
+    "id": 4,
+    "title": "ASUS ROG FUSION II 500",
+    "description": "Auriculares gaming de gama alta con sonido envolvente 7.1 virtual, Quad DAC™ ESS 9280 de alta resolución y drivers ASUS Essence de 50 mm.",
+    "price": 271749,
+    "pictures": ["https://www.goldonecomputer.com/image/cache/catalog/Products/Gaming%20Gear/Gaming%20Headset/ROG-FUSION-II-500-500x500.jpg"],
+    "category": "Accesorios",
+    "tags": ["auriculares", "gaming", "audio", "asus"]
+  },
+  {
+    "id": 5,
+    "title": "Placa base Asus ROG strix z490-e gaming",
+    "description": "Plataforma ATX de alto rendimiento diseñada para procesadores Intel Core de 10.ª generación (socket LGA 1200). Destaca por su sistema de alimentación mejorado 14+2 etapas, refrigeración optimizada.",
+    "price": 234768,
+    "pictures": ["https://m.media-amazon.com/images/I/71MSgZND5nL._AC_SL500_.jpg"],
+    "category": "Componentes",
+    "tags": ["placa base", "motherboard", "intel", "asus"]
+  },
+  {
+    "id": 6,
+    "title": "Tarjeta gráfica NVIDIA GeForce RTX 4060 Ti",
+    "description": "Tarjeta gráfica de alto rendimiento con 8 GB de memoria GDDR6. Ideal para gaming en resoluciones altas y aplicaciones de creación de contenido.",
+    "price": 1346239,
+    "pictures": ["https://spacegamer.com.ar/img/Public/1058/85381-producto-1.jpg"],
+    "category": "Componentes",
+    "tags": ["gpu", "tarjeta grafica", "nvidia", "rtx"]
+  },
+  {
+    "id": 7,
+    "title": "Procesador Intel Core i5-11400H",
+    "description": "Procesador portátil de 11ª generación (serie H, alto rendimiento) de 10 nm, lanzado en 2021. Cuenta con 6 núcleos y 12 subprocesos, logrando una frecuencia turbo máxima de 4,50 GHz y 12 MB de caché",
+    "price": 160000,
+    "pictures": ["https://cdn.ibertronica.es/product/MIBX8070811400_00001.jpeg"],
+    "category": "Componentes",
+    "tags": ["procesador", "cpu", "intel"]
+  },
+  {
+    "id": 8,
+    "title": "Memoria Ram corsair vengeance lpx 16gb (2x8gb) ddr4 3200mhz",
+    "description": "Kit de alto rendimiento diseñado para overclocking y gaming. Cuenta con disipadores de aluminio de perfil bajo (ideal para espacios reducidos), compatibilidad con Intel XMP 2.0 y latencia CAS 16, ofreciendo estabilidad y velocidad de 3200 MT/s para sistemas DDR4.",
+    "price": 214970,
+    "pictures": ["https://app.contabilium.com/files/explorer/48428/Productos-Servicios/concepto-14001280.jpg"],
+    "category": "Componentes",
+    "tags": ["ram", "memoria", "corsair", "ddr4"]
+  },
+  {
+    "id": 9,
+    "title": "Notebook Gamer ASUS ROG Zephyrus G14",
+    "description": "Notebook gamer de 14 pulgadas altamente portátil y potente, destacada por combinar procesadores AMD Ryzen 9 de última generación y gráficas NVIDIA GeForce RTX (serie 40) en un chasis compacto. Ofrece pantallas de alta calidad (QHD/OLED, 120Hz), excelente refrigeración y un diseño premium.",
+    "price": 4156000,
+    "pictures": ["https://images.fravega.com/f300/ff5c6a4a7f0687e9a3dd9bd7a7e7418f.jpg.webp"],
+    "category": "Notebooks",
+    "tags": ["notebook", "gamer", "portatil", "asus"]
+  },
+  {
+    "id": 10,
+    "title": "Notebook Acer Predator Helios 300",
+    "description": "Laptop gamer de alto rendimiento, ideal para juegos exigentes y creación de contenido. Destaca por sus procesadores Intel Core i7/i9 de última generación, tarjetas gráficas NVIDIA GeForce RTX.",
+    "price": 3456000,
+    "pictures": ["https://www.notebookcheck.org/fileadmin/Notebooks/Acer/Predator_Helios_300_PH317-52-51M6/4_zu_3_helios300.jpg"],
+    "category": "Notebooks",
+    "tags": ["notebook", "gamer", "portatil", "acer"]
+  },
+  {
+    "id": 11,
+    "title": "Notebook MSI GS66 Stealth",
+    "description": "Laptop gamer de gama alta, caracterizada por su diseño \"sigiloso\" en negro mate, ultra delgado y portátil. Destaca por potentes procesadores Intel Core (hasta 12.ª Gen i9) y gráficas NVIDIA GeForce RTX serie 30.",
+    "price": 4534000,
+    "pictures": ["https://media.solotodo.com/media/products/1456635_picture_1631538580.png"],
+    "category": "Notebooks",
+    "tags": ["notebook", "gamer", "portatil", "msi"]
+  },
+  {
+    "id": 12,
+    "title": "Notebook Dell Alienware M15 R4",
+    "description": "Laptop gaming de alto rendimiento y diseño delgado (20.5 mm), lanzada como una opción premium con procesadores Intel Core de 10.ª Gen (i7-10870H/i9-10980HK) y gráficas NVIDIA GeForce RTX serie 30 (3060/3070/3080).",
+    "price": 1784200,
+    "pictures": ["https://laptopmedia.com/wp-content/uploads/2021/01/csm_Alienware_m15_R4_White_with_Tobii_Front_0646168122-e1610530721862.jpg"],
+    "category": "Notebooks",
+    "tags": ["notebook", "gamer", "portatil", "dell"]
+  },
+  {
+    "id": 13,
+    "title": "ASUS TUF Gaming VG27VH1B Monitor Curvo 27″",
+    "description": "Monitor curvo de 27 pulgadas Full HD (1920x1080) diseñado para juegos inmersivos, destacando por su tasa de refresco de 165Hz, tiempo de respuesta de 1ms (MPRT) y curvatura 1500R. Incorpora tecnología FreeSync Premium para evitar cortes de imagen y Shadow Boost para mejorar la visibilidad en zonas oscuras.",
+    "price": 165358,
+    "pictures": ["https://casatecno.com.ar/img/Public/1108-producto-hhdxa6vxaje4n3lg-setting-xxx-0-90-end-800-2046.jpg"],
+    "category": "Multimedia",
+    "tags": ["monitor", "curvo", "gaming", "asus"]
+  },
+  {
+    "id": 14,
+    "title": "Hyperx Quadcast S",
+    "description": "Micrófono de condensador USB diseñado para streamers y creadores de contenido, destacado por su iluminación RGB personalizable, montaje antivibración, sensor de silenciamiento táctil, filtro antipop incorporado y cuatro patrones polares seleccionables.",
+    "price": 243798,
+    "pictures": ["https://www.venex.com.ar/products_images/1745332922_1.png"],
+    "category": "Multimedia",
+    "tags": ["microfono", "streaming", "hyperx", "usb"]
+  },
+  {
+    "id": 15,
+    "title": "Monitor LG 27 Gamer 27GS75Q-B Ips Qhd",
+    "description": "Monitor gamer de 27 pulgadas con panel IPS, resolución QHD (2560x1440) y una alta tasa de refresco de hasta 200 Hz (overclock). Diseñado para jugadores, destaca por su tiempo de respuesta de 1 ms.",
+    "price": 96800,
+    "pictures": ["https://www.lg.com/content/dam/channel/wcms/pe/images/monitores/27gs75q-b_awf_espr_pe_c/galeria/ultragear-32gs75q-gallery-01-2010.jpg/jcr:content/renditions/thum-1600x1062.jpeg?w=800"],
+    "category": "Multimedia",
+    "tags": ["monitor", "ips", "gaming", "lg"]
+  },
+  {
+    "id": 16,
+    "title": "Microfono Redragon Blazar GM300",
+    "description": "Micrófono de condensador USB de alto rendimiento, diseñado para streaming, juegos y creación de contenido. Destaca por su patrón cardioide, construcción metálica robusta, botones de control de volumen/mute y un anillo LED rojo indicador.",
+    "price": 97700,
+    "pictures": ["https://spacegamer.com.ar/img/Public/1058-producto-d-nq-np-871947-mla43532397906-092020-o-4976.jpg"],
+    "category": "Multimedia",
+    "tags": ["microfono", "streaming", "redragon", "usb"]
+  }
+]
