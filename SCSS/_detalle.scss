@@ -106,13 +106,15 @@
         align-items: left;
         margin-top: 10%;
     }
-    .tab-content {
+.tab-content {
         display: block !important; 
         opacity: 1 !important;
         visibility: visible !important;
         height: auto !important;
         overflow: visible !important;
     }
+
+    /* Opcional: Si las pestañas se ven muy juntas, separamos los botones */
     .nav-pills {
         gap: 10px;
         margin-bottom: 20px;
