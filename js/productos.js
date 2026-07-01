@@ -19,9 +19,36 @@ function crearCardProducto(producto) {
       <p>${producto.description}</p>
       <p class="precio">$${producto.price}</p>
       <a class="btn detalle" href="./${detalleMap[producto.id]}">Ver detalles</a>
+      <button class="btn btn-primary btn-agregar-detalle mb-4" onclick="agregarAlCarrito(${producto.id})">Agregar al carrito</button>
     </div>
  `;
 
+}
+function agregarAlCarrito(idProducto) {
+    let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+    const yaExiste = carrito.some(producto => producto.id === idProducto);
+
+    if (yaExiste) {
+        alert("Este producto ya se encuentra en tu carrito de compras.");
+        return;
+    }
+
+    fetch('../data/api.json')
+        .then(response => response.json())
+        .then(productos => {
+            const productoEncontrado = productos.find(p => p.id === idProducto);
+
+            if (productoEncontrado) {
+                carrito.push(productoEncontrado);
+                localStorage.setItem('carrito', JSON.stringify(carrito));
+                
+                alert(`¡${productoEncontrado.title} ha sido agregado al carrito con éxito!`);
+            }
+        })
+        .catch(error => {
+            console.error("Error al conectarse a la API e intentar añadir el producto:", error);
+            alert("No se pudo agregar el producto. Inténtalo de nuevo más tarde.");
+        });
 }
 function renderizarProductos(productos, contenedor, mensaje) {
  contenedor.innerHTML = "";
@@ -34,13 +61,18 @@ if (productos.length === 0) {
         contenedorAccesorios.innerHTML += crearCardProducto(producto);
  });
 }
-
 const detalleMap = {
        1: "detalle-kumara.html",
        2: "detalle-g203.html",
        3: "detalle-HyperX.html",
        4: "detalle-AuriAsusRog.html",
 };
+
+function irADetalle(idProducto) {
+  const url = detalleMap[idProducto];
+  if (!url) return;
+  window.location.href = url;
+}
 
 async function obtenerProductos() {
     try {

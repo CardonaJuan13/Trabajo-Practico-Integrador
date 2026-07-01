@@ -15,7 +15,7 @@
     "price": 70200,
     "pictures": ["../Img/Caja Mouse G203.jpg"],
     "category": "Accesorios",
-    "tags": ["mouse", "gamer", "logitech", "rgb"]
+    "tags": ["mouse", "gamer", "logitech", "rgb", "destacados"]
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
     "price": 271749,
     "pictures": ["https://www.goldonecomputer.com/image/cache/catalog/Products/Gaming%20Gear/Gaming%20Headset/ROG-FUSION-II-500-500x500.jpg"],
     "category": "Accesorios",
-    "tags": ["auriculares", "gaming", "audio", "asus"]
+    "tags": ["auriculares", "gaming", "audio", "asus", "destacados"]
   },
   {
     "id": 5,
