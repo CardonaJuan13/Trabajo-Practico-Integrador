@@ -4,123 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/newsletter.css">
     <link rel="stylesheet" href="../CSS/styles.css">
     <link rel="icon" href="../Img/logo.jpg" type="image">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <title>Newsletter</title>
 </head>
 <body id="fondo">
-    <header>
-        <nav class="minav d-none d-sm-block">
-            <div box-nav>
-                <img class="logo-tienda" src="../Img/logo-transparente.png" alt="Logo-TDFTech">
+<header>
+    <nav class="minav d-none d-sm-block">
+        <div box-nav>
+            <img class="logo-tienda" src="../Img/logo-transparente.png" alt="Logo-TDFTech">
+        </div>
+        <p>
+            <a class="a" href="../index.html">Inicio</a>
+            <a class="a" href="../Paginas/categoria.html">Categorias</a>
+            <a class="a" href="../Paginas/productos.html">Productos</a>
+            <a class="a" href="../Paginas/newsletter.html">Newsletter</a>
+        </p>
+    </nav>
+
+    <nav class="navbar bg-body-tertiary fixed-top d-block d-sm-none nav-mobile">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><h2>TDFTech</h2></a>
+        <button class="navbar-toggler btn-mobile" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">TDFTech</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-                <p">
-                    <a class="a" href="../index.html">Inicio</a>
-                    <a class="a" href="../Paginas/categoria.html">Categorias</a>
-                    <a class="a" href="../Paginas/productos.html">Productos</a>
-                    <a class="a" href="../Paginas/newsletter.html">Newsletter</a>
-                </p>
-            </nav>
-        <nav class="navbar bg-body-tertiary fixed-top d-sm-none">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">TDFTech</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">TDFTech</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../Paginas/categoria.html">Categorias</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../Paginas/productos.html">Productos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../Paginas/newsletter.html">Contacto</a>
-          </li>
-      </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="categoria.html">Categorias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="newsletter.html">Newsletter</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
-  </div>
-</nav>
-        </header>
-    <main class="mi-main">
-            <strong class="strong-titulo">
-                Suscripción al Newsletter
-            </strong>
-        <div class="box-msj">
-            <p>
-                Suscríbete a nuestro newsletter para recibir las últimas ofertas, novedades y promociones directamente en tu bandeja de entrada. Mantente informado sobre nuestros productos, eventos especiales y descuentos exclusivos. ¡No te pierdas ninguna oportunidad de ahorrar y descubrir lo nuevo en NombreTienda!
-            </p>
-        </div>
-        <form class="form" action="#" method="get">
-            <fieldset class="mis-items">
+    </nav>
+</header>
 
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
+<main class="mi-form">
+    <a href="./carrito.html" class="btn-carrito" target="blank" title="Ver carrito">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+        </svg>
+    </a>
+    <h1>Suscripción al Newsletter</h1>
+     <div class="box-msj">
+        <p>Suscríbete a nuestro newsletter para mantenerte informado sobre nuestros productos, eventos especiales y descuentos exclusivos. ¡No te pierdas ninguna oportunidad de ahorrar y descubrir lo nuevo en TDF Tech!</p>
+    </div>
+    <form class="form" id="newsletter-form" action="#" method="get">
+        <fieldset class="mis-items">
 
-                <br>
-                <br>
+            <label for="nombre">Nombre:</label><br>
+            <input class="input-custom" type="text" id="nombre" name="nombre" required>
 
-                <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" name="apellido" required >
+            <br><br>
 
-                <br>
-                <br>
+            <label for="apellido">Apellido:</label><br>
+            <input class="input-custom" type="text" id="apellido" name="apellido" required >
 
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="1" cols="25" minlength="10" maxlength="300"></textarea>
+            <br><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input class="input-custom" type="email" id="newsletter-email" name="email" required>
 
-                <br>
-                <br>
+            <br><br>
 
-                <label for="mensaje"> Elija la categoria de su interes:</label>
-                <select id="categoria" name="categoria" class="select-placeholder" required>
-                    <option value="" disabled selected hidden>--Seleccionar--</option>
-                    <option value="accesorios">Accesorios</option>
-                    <option value="componentes">Componentes</option>
-                    <option value="perifericos">Notebooks</option>
-                    <option value="eventos">Multimedia</option>
-                </select>
+            <label for="categoria"> Elija la categoria de su interes:</label><br>
+            <select class="input-custom" id="categoria" name="categoria" class="select-placeholder" required>
+                <option value="" disabled selected hidden>--Seleccionar--</option>
+                <option value="accesorios">Accesorios</option>
+                <option value="componentes">Componentes</option>
+                <option value="notebooks">Notebooks</option>
+                <option value="multimedia">Multimedia</option>
+            </select>
 
-                <br>
-                <br>
+            <br><br>
 
-                <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje (opcional):</label><br>
+            <textarea class="input-custom" id="mensaje" name="mensaje" rows="3" cols="25" minlength="10" maxlength="300"></textarea>
 
-                <br>
-                <br>
+            <br><br>
 
+            <div id="newsletter-mensaje" style="font-weight: bold; margin-bottom: 15px;"></div>
+            <div class = "form-buttons">
                 <button type="submit" class="boton-confirmar">Suscribirse</button>
-
-                <br>
-                <br>
-
                 <button type="reset" class="boton-limpiar">Limpiar</button>
-            </fieldset>
-        </form>
-    </main>
-    <footer class="footer">
-            <strong class="strong-footer">
-                Contacto:
-            </strong>
-        <div class="box3">
-            <br>
-                    <a class="a" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjhj62Wo4yUAxXSr5UCHcuhCYwQFnoECA4QAQ&url=https%3A%2F%2Fweb.whatsapp.com%2F&usg=AOvVaw1V09js0t2A_u6GXzP1jPsR&opi=89978449" target="_blank">WhatsApp</a>                    <a class="a" href="https://www.instagram.com/tdftech.ush/" target="_blank">Instagram</a>
+            </div>
+        </fieldset>
+    </form>
+</main>
+<footer class="footer">
+    <strong class="strong-footer">Contacto:</strong>
+    <div class="box3">
+        <br>
+        <a class="a" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjhj62Wo4yUAxXSr5UCHcuhCYwQFnoECA4QAQ&url=https%3A%2F%2Fweb.whatsapp.com%2F&usg=AOvVaw1V09js0t2A_u6GXzP1jPsR&opi=89978449" target="_blank">WhatsApp</a>
+        <a class="a" href="https://www.instagram.com/tdftech.ush/" target="_blank">Instagram</a>
+        Correo: tdftech@gmail.com
+    </div>
+</footer>
 
-                    Correo: tdftech@gmail.com
-        </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="../js/newsletter.js"></script>
+
 </body>
 </html>

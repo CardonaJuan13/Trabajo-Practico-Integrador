@@ -21,17 +21,18 @@
       <a class="a" href="../Paginas/newsletter.html">Newsletter</a>
     </p>
 </nav>
-<nav class="navbar bg-body-tertiary fixed-top d-sm-none">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">TDFTech</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">TDFTech</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
+
+<nav class="navbar bg-body-tertiary fixed-top d-block d-sm-none nav-mobile">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><h2>TDFTech</h2></a>
+        <button class="navbar-toggler btn-mobile" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">TDFTech</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
@@ -44,13 +45,18 @@
             <a class="nav-link active" href="../Paginas/productos.html">Productos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="../Paginas/newsletter.html">Contacto</a>
+            <a class="nav-link active" href="../Paginas/newsletter.html">Newsletter</a>
           </li>
       </div>
     </div>
   </div>
 </nav>
 <main class="mi-main">
+  <a href="./carrito.html" class="btn-carrito" target="blank" title="Ver carrito">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+    </svg>
+  </a>
   <div class="seccion-productos">
 
     <h1 class="titulo-pagina">Categorías de Productos</h1>

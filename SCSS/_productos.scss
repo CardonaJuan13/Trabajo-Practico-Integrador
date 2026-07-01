@@ -10,7 +10,8 @@
     align-items: stretch;
     width: 90%;
     margin: auto;
-    text-align: center;
+    gap: 10px;
+    margin-top: 20px;
 }
 #h1{
     text-align: center;
@@ -62,6 +63,7 @@
     color: rgb(255, 255, 255);
     margin-top: auto;
     background-color: #10b3ee;
+    margin-bottom: 10px;
 }
 @media(max-width: 768px){
     #h1{
