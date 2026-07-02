@@ -2,7 +2,6 @@
 
 .main {
     font-family: vars.$fuente-principal;
-
 }
 
 .nav-links {
@@ -155,25 +154,26 @@
 @media (max-width: 680px) {
     .contenedor-header {
         flex-direction: column;
-        align-items: center;
     
     .h1-header {
         font-size: larger;
-        width: 80%;
+        width: 100%;
+        align-self: center;
     }
     .sub-header {
-        width: 80%;
+        width: 100%;
     }
     .header-texto {
         width: 100%;
         padding-left: 0;
-        text-align: center;
+        align-items: center;
     }
     .header-imagen {
         width: 100%;
     }
     .enlace-header {
-        width: 80%;
+        align-self: center;
+        width: 100%;
     }
 }
     .box2 strong {
@@ -189,4 +189,11 @@
         margin-bottom:2rem;
     }
 }
+
+    .producto-destacado {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+    }
 }

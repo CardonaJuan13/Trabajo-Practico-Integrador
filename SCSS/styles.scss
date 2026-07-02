@@ -51,18 +51,19 @@ body{
         margin-top: 60px;
     }
 }
-
-
-
-
-
-
 .form {
   text-align: center;
   margin-left: 5%;
   margin-right: 5%;
   background-color: #efefef;
   max-width: 100%;
+}
+
+@media(max-width: 768px){
+    .form {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 .mis-items {
