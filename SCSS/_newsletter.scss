@@ -40,10 +40,12 @@
     .form{
         margin-right: 2rem !important;
         margin-left: 0.2rem !important;
+        max-width: 90%;
     }
     .mis-items{
         max-width: 100%;
-        text-align: left;        border-color: black;
+        text-align: left;        
+        border-color: black;
         border-width: 3px;
         padding: 2rem;
         margin-left: 1rem;
